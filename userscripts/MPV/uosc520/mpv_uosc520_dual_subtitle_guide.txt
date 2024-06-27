@@ -1,0 +1,22 @@
+20240627 15:37
+Hướng dẫn bổ sung Secondary Subtitle vào bản uosc mới 5.2.0
+
+====================
+
+B1: Tới thư mục mpv\portable_config
+B1.1: Cẩn thận thì backup lại
+
+B2: Copy cả 2 folder scripts và script-opts đè lên các thư mục cũ 
+B3: Kiểm tra lại file mpv\portable_config\script-opts\uosc\main.lua xem đã đúng bản 5.2.0 chưa
+Thấy có 5.2.0 là OK
+B4: Thêm dòng dưới đây vào file mpv\portable_config\input.conf 
+(Mục đích để gán hotkey Shift+V để bật/ tắt subtitle thứ 2 - ai có rồi thì thôi)
+V           cycle secondary-sub-visibility          	#! Subtitles > Toggle secondary subtitles visibility
+======
+
+DONE
+
+====================
+Video để test: https://youtu.be/Pv0iVoSZzN8 
+
+Output sẽ giống như hình https://i.imgur.com/SwSvUYb.jpeg
