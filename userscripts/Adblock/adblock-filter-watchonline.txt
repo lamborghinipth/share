@@ -1,0 +1,31 @@
+! Chặn QC xem Bóng đá Online, xem Phim
+[Adblock Plus 2.0]
+! Version: 2401080101
+! Title: LB BongDa - chặn quảng cáo trên các trang xem bóng đá, TV online
+! Last modified: 29 Jun 2024 16:00:00 UTC+7
+! Expires: 1 month 
+!
+! LB List Filter Collection
+! Copyright: LamborghiniPtH
+! Homepage: https://github.com/lamborghinipth/lb-userscript/tree/adblock
+! License: GPLv3 (https://github.com/lamborghinipth/lb-userscript/blob/adblock/LICENSE)
+! Please report any unblocked ads or problems by email or in our fanpage
+! Mọi thắc mắc xin gửi về email hoặc fanpage
+! Email: lamborghinipth@hotmail.com
+! Facebook Fanpage: 
+! Forum: 
+! Report new issue on github: https://github.com/lamborghinipth/lb-userscript/issues/new
+! ---------- Generic Blocking Rules ---------- =========================================================================================================================================================
+! ====== Watch ======
+/^.*?motchill.*?$/##footer,#footer,.cursor-pointer,.myui-foot,#popup-giua-man-hinh,#catfish,#top-banner,#preload
+/^.*?animevietsub.*?$/##footer,#footer
+tvhayb.com###catfish-adv
+wetv.vip##footer
+vtvgo.vn##^#homepage,.btn-share-social.no-padding,.item-channel-live
+vtvgo.vn##.scrol-to-home
+vieon.vn##footer,#fc_frame
+vieon.vn##^.cursor-pointer
+/^.*?vebo.*?$/##a[href*="bet"],a[href*="88"],#footer,#xmenu,a[href="mailto:ads@xoilac.tv"],.fade,.mw-w-sidebar,.ft-box,[class*="size-"]
+/^.*?thapcam.*?$/##a[href*="bet"],a[href*="88"],#footer,#xmenu,a[href="mailto:ads@xoilac.tv"],.fade,.mw-w-sidebar,.ft-box,[class*="size-"],
+/^.*?thapcam.*?$/##a:has-text("Đặt cược")
+/^.*?socolive.*?$/##^.index-footer-wrapper,footer,.header-wrapper

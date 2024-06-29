@@ -1,0 +1,38 @@
+[Adblock Plus 2.0]
+! Version: 202401080101
+! Title: LB Youtube Shorts - chặn video shorts
+! Last modified: 08 Jan 2024 07:56:25 UTC+7
+! Expires: 1 days (update frequency)
+!
+! Học hỏi từ đây
+! LB List filter collection
+! Copyright: https://letsblock.it/filters/youtube-shorts
+! Homepage: https://github.com/lamborghinipth/lb-userscript/tree/adblock
+! License: GPLv3 (https://github.com/lamborghinipth/lb-userscript/blob/adblock/LICENSE)
+! Please report any unblocked ads or problems by email or in our fanpage
+! Mọi thắc mắc xin gửi về email hoặc fanpage
+! Email: lamborghinipth@hotmail.com
+! Facebook Fanpage: 
+! Forum: 
+! Report new issue on github: https://github.com/lamborghinipth/lb-userscript/issues/new
+! ---------- Generic Blocking Rules ---------- =========================================================================================================================================================
+www.youtube.com##ytd-guide-renderer a.yt-simple-endpoint path[d^="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33"]:upward(ytd-guide-entry-renderer)
+www.youtube.com##ytd-mini-guide-renderer a.yt-simple-endpoint path[d^="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33"]:upward(ytd-mini-guide-entry-renderer)
+www.youtube.com##ytd-browse[page-subtype="home"] .ytd-thumbnail[href^="/shorts/"]:upward(ytd-rich-item-renderer)
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] .ytd-thumbnail[href^="/shorts/"]:upward(ytd-grid-video-renderer,ytd-rich-item-renderer)
+www.youtube.com##ytd-search .ytd-thumbnail[href^="/shorts/"]:upward(ytd-video-renderer)
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer .ytd-thumbnail[href^="/shorts/"]:upward(ytd-item-section-renderer)
+www.youtube.com##ytd-watch-next-secondary-results-renderer .ytd-thumbnail[href^="/shorts/"]:upward(ytd-compact-video-renderer,ytd-shelf-renderer)
+www.youtube.com##ytd-browse[page-subtype="trending"] .ytd-thumbnail[href^="/shorts/"]:upward(ytd-video-renderer)
+www.youtube.com##ytd-search .ytd-thumbnail[href^="/shorts/"]:upward(ytd-video-renderer)
+www.youtube.com##ytd-notification-renderer:has(> a[href^="/shorts/"])
+www.youtube.com##ytd-rich-shelf-renderer[is-shorts]
+www.youtube.com##ytd-rich-shelf-renderer[is-shorts].ytd-rich-section-renderer:upward(ytd-rich-section-renderer)
+www.youtube.com##ytd-reel-shelf-renderer
+m.youtube.com##ytm-reel-shelf-renderer
+m.youtube.com##ytm-pivot-bar-renderer div.pivot-shorts:upward(ytm-pivot-bar-item-renderer)
+m.youtube.com##ytm-browse ytm-item-section-renderer ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"]:upward(ytm-video-with-context-renderer)
+m.youtube.com##ytm-browse ytm-item-section-renderer ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"]:upward(ytm-compact-video-renderer)
+m.youtube.com##ytm-search ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"]:upward(ytm-compact-video-renderer,ytm-video-with-context-renderer)
+m.youtube.com##ytm-single-column-watch-next-results-renderer ytm-thumbnail-overlay-time-status-renderer span:has-text(/^(0:\d\d|1:0\d)$/):upward(ytm-video-with-context-renderer)
+youtube.com##ytd-rich-grid-row, #contents.ytd-rich-grid-row:style(display:contents !important;)
