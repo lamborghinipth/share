@@ -64,3 +64,11 @@
 ||go-mpulse.net^$third-party
 ||permutive.app^$third-party
 ||dotmetrics.net^$third-party
+
+! ====== Danger ======
+||polyfill.io^
+||polyfill.com^
+
+! ====== Chứng khoán ======
+||entrade.com.vn^$third-party
+||dnse.com.vn^$third-party
