@@ -1,0 +1,66 @@
+! Chặn QC của các Ad Network
+[Adblock Plus 2.0]
+! Version: 2406390101
+! Title: LB ThirdParty - chặn quảng cáo của các AdNetwork
+! Last modified: 30 Jun 2024 16:00:00 UTC+7
+! Expires: 1 month 
+!
+! LB List Filter Collection
+! Copyright: LamborghiniPtH
+! Homepage: https://github.com/lamborghinipth/share
+! License: GPLv3 (https://github.com/lamborghinipth/lb-userscript/blob/adblock/LICENSE)
+! Please report any unblocked ads or problems by email or in our fanpage
+! Mọi thắc mắc xin gửi về email hoặc fanpage
+! Email: lamborghinipth@hotmail.com
+! Facebook Fanpage: 
+! Forum: 
+! Report new issue on github: https://github.com/lamborghinipth/lb-userscript/issues/new
+! ---------- Generic Blocking Rules ---------- =========================================================================================================================================================
+! ====== Third party - Ads ======
+||accesstrade.vn^$third-party
+||adbro.me^$third-party
+||optad360.io^$third-party
+||pubpowerplatform.io^$third-party
+||googletagmanager.com^$third-party
+||taboola.com^$third-party
+||moatads.com^$third-party
+||adnxs.com^$third-party
+||dwin2.com^$third-party
+||pub.network^$third-party
+||hotjar^$third-party
+||1rx.io^$third-party
+||3lift.com^$third-party
+||demdex.net^$third-party
+||getpublica.com^$third-party
+||imrworldwide.com^$third-party
+||liadm.com^$third-party
+||litix.io^$third-party
+||publica-ctv.com^$third-party
+||richaudience.com^$third-party
+||caroda.io^$third-party
+||inmobi.com^$third-party
+||shinypond.com^$third-party
+||adsafeprotected.com^$third-party
+||amazon-adsystem.com^$third-party
+||sendtonews.com^$third-party
+||stnvideo.com^$third-party
+||script.ac^$third-party
+||sail-horizon.com^$third-party
+||scaredslip.com^$third-party
+||wknd.ai^$third-party
+||webcontentassessor.com^$third-party
+||abtasty.com^$third-party
+||doubleverify.com^$third-party
+||p7cloud.net^$third-party
+||blogherads.com^$third-party
+||adlightning.com^$third-party
+||playfulriver.com^$third-party
+||connatix.com^$third-party
+||permutive.com^$third-party
+||teads.tv^$third-party
+||dtadnetwork.com^$third-party
+||3gl.net^$third-party
+||criteo.net^$third-party
+||go-mpulse.net^$third-party
+||permutive.app^$third-party
+||dotmetrics.net^$third-party
