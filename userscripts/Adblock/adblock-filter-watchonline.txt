@@ -30,5 +30,5 @@ vieon.vn##^.cursor-pointer
 /^.*?xoilac.*?$/##a[href*="bet"],a[href*="88"],#footer,#xmenu,a[href="mailto:ads@xoilac.tv"],.fade,.mw-w-sidebar,.ft-box,[class*="size-"],.modal,.bg-overlay
 /^.*?thapcam.*?$/##a[href*="bet"],a[href*="88"],#footer,#xmenu,a[href="mailto:ads@xoilac.tv"],.fade,.mw-w-sidebar,.ft-box,[class*="size-"],.modal,.bg-overlay
 /^.*?thapcam.*?$/##a:has-text("Đặt cược")
-##a:has-text("Đặt cược")
+/^.*?.*?$/##a:has-text("Đặt cược")
 /^.*?socolive.*?$/##^.index-footer-wrapper,footer,.header-wrapper
