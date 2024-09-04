@@ -1,8 +1,8 @@
 ! Chặn QC xem Bóng đá Online, xem Phim
 [Adblock Plus 2.0]
-! Version: 2406390101
-! Title: LB BongDa - chặn quảng cáo trên các trang xem bóng đá, phim, TV online
-! Last modified: 30 Jun 2024 16:00:00 UTC+7
+! Version: 202409040101
+! Title: LB BongDa - chặn quảng cáo trên các trang xem bóng đá, phim, TV online sử dụng uBlock
+! Last modified: 04 Sep 2024 11:00:00 UTC+7
 ! Expires: 1 month 
 !
 ! LB List Filter Collection
