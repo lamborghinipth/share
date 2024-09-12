@@ -1,0 +1,1654 @@
+
+C:\MPV\portable_config\script-opts>echo loadfile https://www.youtube.com/watch?v=9IuuQAal1Wc replace >\\.\pipe\\mpvsocket
+
+C:\MPV\portable_config\script-opts>echo loadfile https://www.youtube.com/watch?v=tRCckwEXBmk append >\\.\pipe\\mpvsocket
+
+C:\MPV\portable_config\script-opts>echo loadfile https://www.youtube.com/watch?v=tRCckwEXBmk append=play >\\.\pipe\\mpvsocket
+
+C:\MPV\portable_config\script-opts>echo loadfile https://www.youtube.com/watch?v=tRCckwEXBmk append=play >\\.\pipe\\mpvsocket
+
+C:\MPV\portable_config\script-opts>echo loadfile https://www.youtube.com/watch?v=tRCckwEXBmk append=play >\\.\pipe\\mpvsocket
+
+C:\MPV\portable_config\script-opts>echo loadfile https://www.youtube.com/watch?v=tRCckwEXBmk append=play >\\.\pipe\\mpvsocket
+
+C:\MPV\portable_config\script-opts>echo loadfile https://www.youtube.com/watch?v=tRCckwEXBmk append >\\.\pipe\\mpvsocket
+
+C:\MPV\portable_config\script-opts>echo loadfile https://www.youtube.com/watch?v=tRCckwEXBmk append >\\.\pipe\\mpvsocket
+
+C:\MPV\portable_config\script-opts>echo loadfile https://www.youtube.com/watch?v=tRCckwEXBmk append >\\.\pipe\\mpvsocket
+
+C:\MPV\portable_config\script-opts>echo loadfile https://www.youtube.com/watch?v=tRCckwEXBmk append >\\.\pipe\\mpvsocket
+
+C:\MPV\portable_config\script-opts>echo loadfile https://www.youtube.com/watch?v=tRCckwEXBmk append >\\.\pipe\\mpvsocket
+
+C:\MPV\portable_config\script-opts>
+C:\MPV\portable_config\script-opts>cd ..
+
+C:\MPV\portable_config>cd ..
+
+C:\MPV>mpv.exe mpv://play/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj10UkNja3dFWEJtaw/?referer=aHR0cHM6Ly93d3cueW91dHViZS5jb20vP2FwcD1kZXNrdG9w
+
+C:\MPV>mpv.exe mpv://play/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj10UkNja3dFWEJtaw/?referer=aHR0cHM6Ly93d3cueW91dHViZS5jb20vP2FwcD1kZXNrdG9w
+
+C:\MPV>mpv.exe mpv://play/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj10UkNja3dFWEJtaw/?referer=aHR0cHM6Ly93d3cueW91dHViZS5jb20vP2FwcD1kZXNrdG9w
+
+C:\MPV>mpv.exe mpv://play/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj10UkNja3dFWEJtaw/?referer=aHR0cHM6Ly93d3cueW91dHViZS5jb20vP2FwcD1kZXNrdG9w
+
+C:\MPV>mpv mpv://play/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj10UkNja3dFWEJtaw/?referer=aHR0cHM6Ly93d3cueW91dHViZS5jb20vP2FwcD1kZXNrdG9w -v
+[cplayer] Command line options: 'mpv://play/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj10UkNja3dFWEJtaw/?referer=aHR0cHM6Ly93d3cueW91dHViZS5jb20vP2FwcD1kZXNrdG9w' '-v'
+[cplayer] mpv v0.38.0-578-ge07470ad Copyright © 2000-2024 mpv/MPlayer/mplayer2 projects
+[cplayer]  built on Jul  4 2024 23:04:24
+[cplayer] libplacebo version: v7.349.0 (v7.349.0-dirty)
+[cplayer] FFmpeg version: N-116142-ge14cdf999
+[cplayer] FFmpeg library versions:
+[cplayer]    libavcodec      61.9.100
+[cplayer]    libavdevice     61.2.100
+[cplayer]    libavfilter     10.2.102
+[cplayer]    libavformat     61.4.100
+[cplayer]    libavutil       59.28.100
+[cplayer]    libswresample   5.2.100
+[cplayer]    libswscale      8.2.100
+[cplayer]
+[cplayer] Configuration: -Ddebug=true -Db_ndebug=true -Doptimization=3 -Db_lto=true -Db_lto_mode=thin -Dlibmpv=true -Dpdf-build=enabled -Dlua=enabled -Djavascript=enabled -Dsdl2=enabled -Dlibarchive=enabled -Dlibbluray=enabled -Ddvdnav=enabled -Duchardet=enabled -Drubberband=enabled -Dlcms2=enabled -Dopenal=enabled -Dspirv-cross=enabled -Dvulkan=enabled -Dvapoursynth=enabled -Degl-angle=enabled -Dc_args=-Wno-error=int-conversion -Dprefix=/__w/mpv-winbuild/mpv-winbuild/mpv-winbuild-cmake/build64/install/x86_64-w64-mingw32 -Dlibdir=/__w/mpv-winbuild/mpv-winbuild/mpv-winbuild-cmake/build64/install/x86_64-w64-mingw32/lib -Ddefault_library=shared -Dprefer_static=True --cross-file=/__w/mpv-winbuild/mpv-winbuild/mpv-winbuild-cmake/build64/meson_cross.txt
+[cplayer] List of enabled features: build-date cplugins cuda-hwaccel cuda-interop d3d-hwaccel d3d11 d3d9-hwaccel debug direct3d dos-paths dvdnav dxgi-debug dxgi-debug-d3d11 egl-angle egl-angle-win32 ffmpeg ffnvcodec gl gl-dxinterop gl-dxinterop-d3d9 gl-win32 glob glob-win32 gpl iconv javascript jpeg lcms2 libarchive libass libavdevice libbluray libplacebo luajit openal pathcch rubberband rubberband-3 sdl2 sdl2-audio sdl2-gamepad sdl2-video shaderc spirv-cross uchardet vaapi vaapi-win32 vapoursynth vector vulkan vulkan-interop wasapi win32 win32-desktop win32-executable win32-threads zimg zimg-st428 zlib
+[cplayer] Built with NDEBUG.
+[cplayer] Reading config file C:/MPV/portable_config/mpv.conf
+[ifo_dvdnav] Opening C:/MPV/portable_config/mpv.conf
+[bdmv/bluray] Opening C:/MPV/portable_config/mpv.conf
+[file] Opening C:/MPV/portable_config/mpv.conf
+[cplayer] Error parsing option d3d11va (option not found)
+[cplayer] C:/MPV/portable_config/mpv.conf:26: setting option d3d11va='yes' failed.
+[cplayer] Option gpu-context: this option does not accept sub-options.
+[cplayer] Sub-options for --vo and --ao were removed from mpv in release 0.23.0.
+[cplayer] See https://0x0.st/uM for details.
+[cplayer] Error parsing option gpu-context (option parameter could not be parsed)
+[cplayer] C:/MPV/portable_config/mpv.conf:31: setting option gpu-context='d3d11:adapter=0' failed.
+[cplayer] Error parsing option screenshot-jpg-compression (option not found)
+[cplayer] C:/MPV/portable_config/mpv.conf:116: setting option screenshot-jpg-compression='9' failed.
+[cplayer] Option --focus-on-open was removed: Replaced by --focus-on
+[cplayer] Error parsing option no-focus-on-open (option not found)
+[cplayer] C:/MPV/portable_config/mpv.conf:151: setting option no-focus-on-open='' failed.
+[cplayer] Error parsing option cache-backbuffer (option not found)
+[cplayer] C:/MPV/portable_config/mpv.conf:220: setting option cache-backbuffer='500000' failed.
+[cplayer] Error parsing option cache-initial (option not found)
+[cplayer] C:/MPV/portable_config/mpv.conf:221: setting option cache-initial='0' failed.
+[cplayer] Applying profile 'default'...
+[cplayer] Setting option 'include' = '~~/profiles.conf' (flags = 4)
+[cplayer] Reading config file C:/MPV/portable_config/profiles.conf
+[ifo_dvdnav] Opening C:/MPV/portable_config/profiles.conf
+[bdmv/bluray] Opening C:/MPV/portable_config/profiles.conf
+[file] Opening C:/MPV/portable_config/profiles.conf
+[cplayer] Setting option 'geometry' = '50%:50%' (flags = 4)
+[cplayer] Setting option 'autofit-larger' = '80%x80%' (flags = 4)
+[cplayer] Setting option 'prefetch-playlist' = 'yes' (flags = 4)
+[cplayer] Setting option 'force-seekable' = 'yes' (flags = 4)
+[cplayer] Setting option 'keep-open' = 'yes' (flags = 4)
+[cplayer] Setting option 'reset-on-next-file' = 'pause' (flags = 4)
+[cplayer] Setting option 'msg-color' = 'yes' (flags = 4)
+[cplayer] Setting option 'msg-module' = 'yes' (flags = 4)
+[cplayer] Setting option 'image-display-duration' = 'inf' (flags = 4)
+[cplayer] Setting option 'hr-seek' = 'yes' (flags = 4)
+[cplayer] Setting option 'vd-lavc-fast' = 'yes' (flags = 4)
+[cplayer] Setting option 'log-file' = '~~desktop/mpv-log.txt' (flags = 4)
+[cplayer] Setting option 'vo' = 'gpu-next' (flags = 4)
+[cplayer] Setting option 'hwdec' = 'auto-safe' (flags = 4)
+[cplayer] Setting option 'profile' = 'Balanced' (flags = 4)
+[cplayer] Applying profile 'Balanced'...
+[cplayer] Setting option 'glsl-shaders-clr' = '' (flags = 4)
+[cplayer] Setting option 'scale' = 'lanczos' (flags = 4)
+[cplayer] Setting option 'cscale' = 'catmull_rom' (flags = 4)
+[cplayer] Setting option 'libplacebo-opts' = 'downscaler=custom,downscaler_preset=hermite,downscaler_polar=true,downscaler_antiring=0' (flags = 4)
+[cplayer] Setting option 'correct-downscaling' = 'yes' (flags = 4)
+[cplayer] Setting option 'linear-downscaling' = 'yes' (flags = 4)
+[cplayer] Setting option 'sigmoid-upscaling' = 'yes' (flags = 4)
+[cplayer] Setting option 'hdr-compute-peak' = 'yes' (flags = 4)
+[cplayer] Setting option 'hdr-peak-percentile' = '100' (flags = 4)
+[cplayer] Setting option 'hdr-contrast-recovery' = '0.0' (flags = 4)
+[cplayer] Setting option 'allow-delayed-peak-detect' = 'no' (flags = 4)
+[cplayer] Setting option 'dither-depth' = 'auto' (flags = 4)
+[cplayer] Setting option 'gpu-api' = 'd3d11' (flags = 4)
+[cplayer] Setting option 'hwdec' = 'd3d11va' (flags = 4)
+[cplayer] Setting option 'd3d11va-zero-copy' = 'yes' (flags = 4)
+[cplayer] Setting option 'cache' = 'auto' (flags = 4)
+[cplayer] Setting option 'demuxer-max-bytes' = '1GiB' (flags = 4)
+[cplayer] Setting option 'demuxer-readahead-secs' = '300' (flags = 4)
+[cplayer] Setting option 'demuxer-max-back-bytes' = '500MiB' (flags = 4)
+[cplayer] Setting option 'ytdl-format' = 'bestvideo+bestaudio/best' (flags = 4)
+[cplayer] Setting option 'load-unsafe-playlists' = 'yes' (flags = 4)
+[cplayer] Setting option 'ytdl-raw-options' = 'write-thumbnail=,sub-lang="vi,vi-vi,en,en-en"' (flags = 4)
+[cplayer] Setting option 'deband' = 'no' (flags = 4)
+[cplayer] Setting option 'deband-iterations' = '1' (flags = 4)
+[cplayer] Setting option 'deband-threshold' = '48' (flags = 4)
+[cplayer] Setting option 'deband-range' = '32' (flags = 4)
+[cplayer] Setting option 'deband-grain' = '32' (flags = 4)
+[cplayer] Setting option 'osd-bar' = 'no' (flags = 4)
+[cplayer] Setting option 'osc' = 'no' (flags = 4)
+[cplayer] Setting option 'border' = 'no' (flags = 4)
+[cplayer] Setting option 'cursor-autohide' = '100' (flags = 4)
+[cplayer] Setting option 'osd-level' = '1' (flags = 4)
+[cplayer] Setting option 'osd-duration' = '1000' (flags = 4)
+[cplayer] Setting option 'osd-font' = 'Open Sans' (flags = 4)
+[cplayer] Setting option 'osd-font-size' = '40' (flags = 4)
+[cplayer] Setting option 'osd-border-size' = '2.4' (flags = 4)
+[cplayer] Setting option 'osd-shadow-offset' = '0.75' (flags = 4)
+[cplayer] Setting option 'osd-bold' = 'yes' (flags = 4)
+[cplayer] Setting option 'track-auto-selection' = 'yes' (flags = 4)
+[cplayer] Setting option 'alang' = 'en,eng,ja,jp,jpn,vi,vie,en,eng' (flags = 4)
+[cplayer] Setting option 'slang' = 'vi,vie' (flags = 4)
+[cplayer] Setting option 'volume' = '100' (flags = 4)
+[cplayer] Setting option 'audio-file-auto' = 'fuzzy' (flags = 4)
+[cplayer] Setting option 'volume-max' = '200' (flags = 4)
+[cplayer] Setting option 'audio-pitch-correction' = 'yes' (flags = 4)
+[cplayer] Setting option 'demuxer-mkv-subtitle-preroll' = 'yes' (flags = 4)
+[cplayer] Setting option 'sub-ass-vsfilter-blur-compat' = 'no' (flags = 4)
+[cplayer] Setting option 'sub-fix-timing' = 'no' (flags = 4)
+[cplayer] Setting option 'sub-auto' = 'fuzzy' (flags = 4)
+[cplayer] Setting option 'sub-file-paths-append' = 'ass' (flags = 4)
+[cplayer] Setting option 'sub-file-paths-append' = 'srt' (flags = 4)
+[cplayer] Setting option 'sub-file-paths-append' = 'pgs' (flags = 4)
+[cplayer] Setting option 'sub-file-paths-append' = 'vob' (flags = 4)
+[cplayer] Setting option 'sub-file-paths-append' = 'sub' (flags = 4)
+[cplayer] Setting option 'sub-file-paths-append' = 'sup' (flags = 4)
+[cplayer] Setting option 'sub-file-paths-append' = 'subs' (flags = 4)
+[cplayer] Setting option 'sub-file-paths-append' = 'subtitles' (flags = 4)
+[cplayer] Setting option 'sub-font' = 'Open Sans' (flags = 4)
+[cplayer] Setting option 'sub-font-size' = '40' (flags = 4)
+[cplayer] Setting option 'sub-color' = '#FFFFFFFF' (flags = 4)
+[cplayer] Setting option 'sub-border-color' = '#FF000000' (flags = 4)
+[cplayer] Setting option 'sub-shadow-color' = '0.0/0.0/0.0/0.70' (flags = 4)
+[cplayer] Setting option 'sub-border-size' = '2.0' (flags = 4)
+[cplayer] Setting option 'sub-shadow-offset' = '0.75' (flags = 4)
+[cplayer] Setting option 'sub-spacing' = '0.0' (flags = 4)
+[cplayer] Setting option 'sub-bold' = 'yes' (flags = 4)
+[cplayer] Setting option 'sub-use-margins' = 'no' (flags = 4)
+[cplayer] Setting option 'sub-gauss' = '0.05' (flags = 4)
+[cplayer] Setting option 'screenshot-format' = 'jpg' (flags = 4)
+[cplayer] Setting option 'screenshot-high-bit-depth' = 'no' (flags = 4)
+[cplayer] Setting option 'screenshot-tag-colorspace' = 'no' (flags = 4)
+[cplayer] Setting option 'screenshot-png-compression' = '9' (flags = 4)
+[cplayer] Setting option 'screenshot-dir' = '~/Pictures/mpv' (flags = 4)
+[cplayer] Setting option 'screenshot-template' = '%{?demuxer-via-network==yes:${media-title}%{?demuxer-via-network==yes:_${filename/no-ext}%{!demuxer-via-network==yes:${filename}-%wH.%wM.%wS.%wT-#%#00n' (flags = 4)
+[cplayer] Setting option 'tscale' = 'oversample' (flags = 4)
+[cplayer] Setting option 'target-colorspace-hint' = 'no' (flags = 4)
+[cplayer] Setting option 'tone-mapping' = 'spline' (flags = 4)
+[cplayer] Setting option 'libplacebo-opts-append' = 'gamut_expansion=yes' (flags = 4)
+[cplayer] Setting option 'libplacebo-opts-append' = 'perceptual_deadzone=0.4' (flags = 4)
+[cplayer] Setting option 'libplacebo-opts-append' = 'perceptual_strength=0.5' (flags = 4)
+[cplayer] Setting option 'ontop' = '' (flags = 4)
+[cplayer] Setting option 'osd-on-seek' = 'no' (flags = 4)
+[cplayer] Setting option 'osd-font-size' = '24' (flags = 4)
+[cplayer] Setting option 'keep-open' = 'yes' (flags = 4)
+[cplayer] Setting option 'force-window' = 'immediate' (flags = 4)
+[cplayer] Setting option 'geometry' = '25%x25%-10-10' (flags = 4)
+[cplayer] Setting option 'load-unsafe-playlists' = 'yes' (flags = 4)
+[cplayer] Setting option 'user-agent' = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/127.0' (flags = 4)
+[cplayer] Setting option 'force-seekable' = 'yes' (flags = 4)
+[cplayer] Setting option 'hr-seek' = 'yes' (flags = 4)
+[cplayer] Setting option 'hr-seek-framedrop' = 'yes' (flags = 4)
+[cplayer] Setting option 'osc' = 'no' (flags = 4)
+[cplayer] Setting option 'osd-bar' = 'no' (flags = 4)
+[cplayer] Setting option 'hwdec' = 'auto-safe' (flags = 4)
+[cplayer] Setting option 'vo' = 'gpu-next' (flags = 4)
+[cplayer] Setting option 'tscale' = 'nearest' (flags = 4)
+[cplayer] Setting option 'interpolation' = 'no' (flags = 4)
+[cplayer] Setting option 'scale' = 'bilinear' (flags = 4)
+[cplayer] Setting option 'cscale' = 'bilinear' (flags = 4)
+[cplayer] Setting option 'dscale' = 'bilinear' (flags = 4)
+[cplayer] Setting option 'sws-scaler' = 'fast-bilinear' (flags = 4)
+[cplayer] Setting option 'dither' = 'no' (flags = 4)
+[cplayer] Setting option 'correct-downscaling' = 'no' (flags = 4)
+[cplayer] Setting option 'linear-downscaling' = 'no' (flags = 4)
+[cplayer] Setting option 'sigmoid-upscaling' = 'no' (flags = 4)
+[cplayer] Setting option 'hdr-compute-peak' = 'no' (flags = 4)
+[cplayer] Setting option 'volume-max' = '200' (flags = 4)
+[cplayer] Setting option 'volume' = '100' (flags = 4)
+[cplayer] Setting option 'cache-pause' = '' (flags = 4)
+[cplayer] Setting option 'cache' = 'yes' (flags = 4)
+[cplayer] Setting option 'cache-secs' = '1000' (flags = 4)
+[cplayer] Setting option 'demuxer-thread' = 'yes' (flags = 4)
+[cplayer] Setting option 'demuxer-max-back-bytes' = '50MiB' (flags = 4)
+[cplayer] Setting option 'demuxer-readahead-secs' = '600' (flags = 4)
+[cplayer] Setting option 'network-timeout' = '100' (flags = 4)
+[cplayer] Setting option 'stream-lavf-o-append' = 'reconnect_on_http_error=4xx,5xx' (flags = 4)
+[cplayer] Setting option 'stream-lavf-o-append' = 'reconnect_delay_max=30' (flags = 4)
+[cplayer] Setting option 'stream-lavf-o-append' = 'reconnect_streamed=yes' (flags = 4)
+[cplayer] Setting option 'ytdl-raw-options-append' = 'no-check-certificates=' (flags = 4)
+[cplayer] Setting option 'ytdl-raw-options-append' = 'yes-playlist=' (flags = 4)
+[cplayer] Setting option 'ytdl-raw-options-append' = 'sub-langs=en,en-US,eng,vi,vi-VN,vie,ja,ja-JP,jap,zh-[^-]*,zh-.*-en,live_chat' (flags = 4)
+[cplayer] Setting option 'ytdl-raw-options-append' = 'write-sub=' (flags = 4)
+[cplayer] Setting option 'ytdl-raw-options-append' = 'write-auto-sub=' (flags = 4)
+[cplayer] Setting option 'ytdl-raw-options-append' = 'add-metadata=' (flags = 4)
+[cplayer] Setting option 'ytdl-raw-options-append' = 'audio-multistreams=' (flags = 4)
+[cplayer] Setting option 'ytdl-raw-options-append' = 'video-multistreams=' (flags = 4)
+[cplayer] Setting option 'v' = '' (flags = 8)
+[ifo_dvdnav] Opening C:/MPV/portable_config/input.conf
+[bdmv/bluray] Opening C:/MPV/portable_config/input.conf
+[file] Opening C:/MPV/portable_config/input.conf
+[input] Parsing input config file C:/MPV/portable_config/input.conf
+[input] Unknown key 'script-binding' at C:/MPV/portable_config/input.conf:258
+[input] Input config file C:/MPV/portable_config/input.conf parsed: 165 binds
+   cplayer: mpv v0.38.0-578-ge07470ad Copyright © 2000-2024 mpv/MPlayer/mplayer2 projects
+   cplayer:  built on Jul  4 2024 23:04:24
+   cplayer: libplacebo version: v7.349.0 (v7.349.0-dirty)
+   cplayer: FFmpeg version: N-116142-ge14cdf999
+   cplayer: FFmpeg library versions:
+   cplayer:    libavcodec      61.9.100
+   cplayer:    libavdevice     61.2.100
+   cplayer:    libavfilter     10.2.102
+   cplayer:    libavformat     61.4.100
+   cplayer:    libavutil       59.28.100
+   cplayer:    libswresample   5.2.100
+   cplayer:    libswscale      8.2.100
+   cplayer:
+   cplayer: Configuration: -Ddebug=true -Db_ndebug=true -Doptimization=3 -Db_lto=true -Db_lto_mode=thin -Dlibmpv=true -Dpdf-build=enabled -Dlua=enabled -Djavascript=enabled -Dsdl2=enabled -Dlibarchive=enabled -Dlibbluray=enabled -Ddvdnav=enabled -Duchardet=enabled -Drubberband=enabled -Dlcms2=enabled -Dopenal=enabled -Dspirv-cross=enabled -Dvulkan=enabled -Dvapoursynth=enabled -Degl-angle=enabled -Dc_args=-Wno-error=int-conversion -Dprefix=/__w/mpv-winbuild/mpv-winbuild/mpv-winbuild-cmake/build64/install/x86_64-w64-mingw32 -Dlibdir=/__w/mpv-winbuild/mpv-winbuild/mpv-winbuild-cmake/build64/install/x86_64-w64-mingw32/lib -Ddefault_library=shared -Dprefer_static=True --cross-file=/__w/mpv-winbuild/mpv-winbuild/mpv-winbuild-cmake/build64/meson_cross.txt
+   cplayer: List of enabled features: build-date cplugins cuda-hwaccel cuda-interop d3d-hwaccel d3d11 d3d9-hwaccel debug direct3d dos-paths dvdnav dxgi-debug dxgi-debug-d3d11 egl-angle egl-angle-win32 ffmpeg ffnvcodec gl gl-dxinterop gl-dxinterop-d3d9 gl-win32 glob glob-win32 gpl iconv javascript jpeg lcms2 libarchive libass libavdevice libbluray libplacebo luajit openal pathcch rubberband rubberband-3 sdl2 sdl2-audio sdl2-gamepad sdl2-video shaderc spirv-cross uchardet vaapi vaapi-win32 vapoursynth vector vulkan vulkan-interop wasapi win32 win32-desktop win32-executable win32-threads zimg zimg-st428 zlib
+   cplayer: Built with NDEBUG.
+   cplayer: Cannot find main.* for any supported scripting backend in: C:/MPV/portable_config/scripts/PENDING
+   evafast: Opened config file script-opts/evafast.conf.
+ytdl_preload: Opened config file script-opts/ytdl_preload.conf.
+ vo/gpu-next: Probing for best GPU context.
+vo/gpu-next/d3d11: Initializing GPU context 'd3d11'
+        thumbfast: Opened config file script-opts/thumbfast.conf.
+     quality_menu: Opened config file script-opts/quality-menu.conf.
+             memo: Opened config file script-opts/memo.conf.
+         autocrop: Opened config file script-opts/autocrop.conf.
+   SmartCopyPaste: Opened config file script-opts/SmartCopyPaste.conf.
+         clipshot: Opened config file script-opts/clipshot.conf.
+  playlistmanager: Opened config file script-opts/playlistmanager.conf.
+     slicing_copy: Opened config file script-opts/slicing_copy.conf.
+         clipshot: script-opts/clipshot.conf:1 unknown key 'name ', ignoring
+       streamsave: Opened config file script-opts/streamsave.conf.
+    protocol_hook: Opened config file script-opts/protocol_hook.conf.
+         clipshot: script-opts/clipshot.conf:2 unknown key 'type ', ignoring
+             webm: Opened config file script-opts/webm.conf.
+vo/gpu-next/d3d11: Using Direct3D 11 feature level 11_1
+vo/gpu-next/d3d11: Device Name: Intel(R) Iris(TM) Graphics 5100
+vo/gpu-next/d3d11: Device ID: 8086:0a2e (rev 09)
+vo/gpu-next/d3d11: Subsystem ID: 106b:011a
+vo/gpu-next/d3d11: LUID: 0000000000008322
+vo/gpu-next/d3d11: Initializing SPIR-V compiler 'shaderc'
+vo/gpu-next/d3d11: Using Direct3D 11.1 runtime
+vo/gpu-next/d3d11: Maximum Texture2D size: 16384x16384
+vo/gpu-next/d3d11: D3DCompiler version: 10.0.22621.608
+vo/gpu-next/d3d11: Using DXGI 1.2+
+vo/gpu-next/d3d11: Queried output: \\.\DISPLAY1, 2560x1600 @ 8 bits, colorspace: RGB_FULL_G22_NONE_P709 (0)
+vo/gpu-next/d3d11: Selected swapchain format R8G8B8A8_UNORM (28), attempting to utilize it.
+vo/gpu-next/d3d11: Selected swapchain color space RGB_FULL_G22_NONE_P709 (0), attempting to utilize it.
+vo/gpu-next/d3d11: Swapchain capabilities for color space RGB_FULL_G22_NONE_P709 (0): normal: yes, overlay: no
+vo/gpu-next/d3d11: Swapchain successfully configured to color space RGB_FULL_G22_NONE_P709 (0)!
+vo/gpu-next/d3d11: Using flip-model presentation
+vo/gpu-next/libplacebo: Initialized libplacebo v7.349.0 (v7.349.0-dirty) (API v349)
+vo/gpu-next/libplacebo: Using DXGI 1.2+
+vo/gpu-next/libplacebo: Using Direct3D 11 feature level 11_1
+vo/gpu-next/libplacebo: Direct3D 11 device properties:
+vo/gpu-next/libplacebo:     Device Name: Intel(R) Iris(TM) Graphics 5100
+vo/gpu-next/libplacebo:     Device ID: 8086:0a2e (rev 09)
+vo/gpu-next/libplacebo:     Subsystem ID: 106b:011a
+vo/gpu-next/libplacebo:     LUID: 0000000000008322
+vo/gpu-next/libplacebo:     Driver version: 10.18.15.4240
+vo/gpu-next/libplacebo: shaderc SPIR-V version 1.6 rev 1
+vo/gpu-next/libplacebo: Initialized SPIR-V compiler 'shaderc'
+vo/gpu-next/libplacebo: Using Direct3D 11.4 runtime
+vo/gpu-next/libplacebo: D3DCompiler version: 10.0.22621.608
+vo/gpu-next/libplacebo: GPU information:
+vo/gpu-next/libplacebo:     GLSL version: 450 (vulkan)
+vo/gpu-next/libplacebo:       max_shmem_size:            32768
+vo/gpu-next/libplacebo:       max_group_threads:         1024
+vo/gpu-next/libplacebo:       max_group_size[0]:         1024
+vo/gpu-next/libplacebo:       max_group_size[1]:         1024
+vo/gpu-next/libplacebo:       max_group_size[2]:         64
+vo/gpu-next/libplacebo:       subgroup_size:             0
+vo/gpu-next/libplacebo:       min_gather_offset:         -32
+vo/gpu-next/libplacebo:       max_gather_offset:         31
+vo/gpu-next/libplacebo:     Limits:
+vo/gpu-next/libplacebo:       thread_safe:               0
+vo/gpu-next/libplacebo:       callbacks:                 0
+vo/gpu-next/libplacebo:       max_buf_size:              134217728
+vo/gpu-next/libplacebo:       max_ubo_size:              65536
+vo/gpu-next/libplacebo:       max_ssbo_size:             134217728
+vo/gpu-next/libplacebo:       max_vbo_size:              134217728
+vo/gpu-next/libplacebo:       max_mapped_size:           0
+vo/gpu-next/libplacebo:       max_buffer_texels:         134217728
+vo/gpu-next/libplacebo:       align_host_ptr:            0
+vo/gpu-next/libplacebo:       host_cached:               0
+vo/gpu-next/libplacebo:       max_tex_1d_dim:            16384
+vo/gpu-next/libplacebo:       max_tex_2d_dim:            16384
+vo/gpu-next/libplacebo:       max_tex_3d_dim:            2048
+vo/gpu-next/libplacebo:       blittable_1d_3d:           1
+vo/gpu-next/libplacebo:       buf_transfer:              0
+vo/gpu-next/libplacebo:       align_tex_xfer_pitch:      1
+vo/gpu-next/libplacebo:       align_tex_xfer_offset:     32
+vo/gpu-next/libplacebo:       max_variable_comps:        0
+vo/gpu-next/libplacebo:       max_constants:             0
+vo/gpu-next/libplacebo:       max_pushc_size:            0
+vo/gpu-next/libplacebo:       align_vertex_stride:       1
+vo/gpu-next/libplacebo:       max_dispatch[0]:           65535
+vo/gpu-next/libplacebo:       max_dispatch[1]:           65535
+vo/gpu-next/libplacebo:       max_dispatch[2]:           65535
+vo/gpu-next/libplacebo:       fragment_queues:           1
+vo/gpu-next/libplacebo:       compute_queues:            1
+vo/gpu-next/libplacebo: Using flip-model presentation
+vo/gpu-next/libplacebo: Initial swap chain configuration: format: R10G10B10A2_UNORM, color space: RGB_FULL_G22_NONE_P709.
+     vo/gpu-next/win32: DPI detected from the new API: 154
+     vo/gpu-next/win32: display-fps: 59.971589
+     vo/gpu-next/win32: color-profile: C:\Windows\system32\spool\drivers\color\sRGB Color Space Profile.icm
+           vo/gpu-next: Assuming 59.971589 FPS for display sync.
+           vo/gpu-next: reconfig to 960x540 yuv444p auto/auto/auto/auto/auto CL=unknown
+     vo/gpu-next/win32: reset window bounds: 1910:1133:640:380
+     vo/gpu-next/win32: resize window: 640:380
+     vo/gpu-next/win32: resize window: 640:380
+           vo/gpu-next: Window size: 640x380 (Borders: l=0 t=0 r=0 b=0)
+           vo/gpu-next: Video source: 960x540 (1:1)
+           vo/gpu-next: Video display: (0, 0) 960x540 -> (0, 10) 640x360
+           vo/gpu-next: Video scale: 0.666667/0.666667
+           vo/gpu-next: OSD borders: l=0 t=10 r=0 b=10
+           vo/gpu-next: Video borders: l=0 t=10 r=0 b=10
+vo/gpu-next/libplacebo: Attempting to reconfigure swap chain format: R8G8B8A8_UNORM -> R10G10B10A2_UNORM
+           vo/gpu-next: Window size: 640x380 (Borders: l=0 t=0 r=0 b=0)
+           vo/gpu-next: Video source: 960x540 (1:1)
+           vo/gpu-next: Video display: (0, 0) 960x540 -> (0, 10) 640x360
+           vo/gpu-next: Video scale: 0.666667/0.666667
+           vo/gpu-next: OSD borders: l=0 t=10 r=0 b=10
+           vo/gpu-next: Video borders: l=0 t=10 r=0 b=10
+               cplayer: Waiting for scripts...
+         protocol_hook:
+                  webm: Loaded mpv-webm script!
+         protocol_hook: false
+         protocol_hook:
+         protocol_hook: C:/MPV/portable_config
+         protocol_hook: C:/MPV
+          ytdl_preload: No youtube-dl found with path yt-dlp.exe in config directories
+         protocol_hook: C:/MPV
+                  uosc: Opened config file script-opts/uosc.conf.
+         protocol_hook: { ["ipcMode"] = true,["proxy"] = ,["stream_quality"] = 720p,best,worst,["nogeometry"] = true,["cwd"] = ,}
+       playlistmanager: auto showamount: 24
+       playlistmanager: updating options
+         auto_profiles: Re-evaluating auto profile Normalize
+            osd/libass: libass API version: 0x1703000
+            osd/libass: libass source: meson, commit: 0.17.3-0-ge46aedea0a0d17da4c4ef49d84b94a7994664ab5
+            osd/libass: Shaper: FriBidi 1.0.15 (SIMPLE) HarfBuzz-ng 9.0.0 (COMPLEX)
+            osd/libass: Setting up fonts...
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\OpenSans-Bold.ttf'
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\uosc_icons.otf'
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\uosc_textures.ttf'
+            osd/libass: Using font provider directwrite (with GDI)
+            osd/libass: Done.
+         auto_profiles: Profile condition error on evaluating: [string "profile Normalize condition"]:1: attempt to compare number with nil
+         auto_profiles: Re-evaluating auto profile interpolation-activate
+         auto_profiles: Re-evaluating auto profile stream-no-ytdl
+          ytdl_preload: Found youtube-dl with path yt-dlp.exe in PATH
+         auto_profiles: Profile condition error on evaluating: [string "profile stream-no-ytdl condition"]:1: bad argument #1 to 'find' (string expected, got nil)
+         auto_profiles: Re-evaluating auto profile quality-youtube
+         auto_profiles: Profile condition error on evaluating: [string "profile quality-youtube condition"]:1: bad argument #1 to 'find' (string expected, got nil)
+         auto_profiles: Re-evaluating auto profile Normalize
+         auto_profiles: Profile condition error on evaluating: [string "profile Normalize condition"]:1: attempt to compare number with nil
+         auto_profiles: Re-evaluating auto profile interpolation-activate
+         auto_profiles: Re-evaluating auto profile stream-no-ytdl
+         auto_profiles: Profile condition error on evaluating: [string "profile stream-no-ytdl condition"]:1: bad argument #1 to 'find' (string expected, got nil)
+         auto_profiles: Re-evaluating auto profile quality-youtube
+         auto_profiles: Profile condition error on evaluating: [string "profile quality-youtube condition"]:1: bad argument #1 to 'find' (string expected, got nil)
+               cplayer: Done loading scripts.
+               cplayer: Running hook: auto_profiles/on_before_start_file
+               cplayer: Running hook: protocol_hook/on_load
+         auto_profiles: Re-evaluating auto profile stream-no-ytdl
+         auto_profiles: Re-evaluating auto profile quality-youtube
+         protocol_hook: https://www.youtube.com/?app=desktop
+               cplayer: Set property: http-header-fields=Referer: https://www.youtube.com/?app=desktop -> 1
+         protocol_hook: run cmd /c echo loadfile mpv://play/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj10UkNja3dFWEJtaw/?referer=aHR0cHM6Ly93d3cueW91dHViZS5jb20vP2FwcD1kZXNrdG9w append-play >\\.\pipe\mpvsocket
+              autoload: stopping: manually made playlist
+            osd/libass: libass API version: 0x1703000
+            osd/libass: libass source: meson, commit: 0.17.3-0-ge46aedea0a0d17da4c4ef49d84b94a7994664ab5
+            osd/libass: Shaper: FriBidi 1.0.15 (SIMPLE) HarfBuzz-ng 9.0.0 (COMPLEX)
+            osd/libass: Setting up fonts...
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\OpenSans-Bold.ttf'
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\uosc_icons.otf'
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\uosc_textures.ttf'
+            osd/libass: Using font provider directwrite (with GDI)
+            osd/libass: Done.
+               cplayer: Running hook: quality_menu/on_load
+               cplayer: Running hook: ytdl_hook/on_load
+             ytdl_hook: ytdl:// hook
+             ytdl_hook: not a ytdl:// url
+               cplayer: Running hook: ytdl_hook/on_load
+             ytdl_hook: playlist hook
+               cplayer: Running hook: auto_profiles/on_load
+            osd/libass: libass API version: 0x1703000
+            osd/libass: libass source: meson, commit: 0.17.3-0-ge46aedea0a0d17da4c4ef49d84b94a7994664ab5
+       stream_callback: Opening mpv://play/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj10UkNja3dFWEJtaw/?referer=aHR0cHM6Ly93d3cueW91dHViZS5jb20vP2FwcD1kZXNrdG9w
+            osd/libass: Shaper: FriBidi 1.0.15 (SIMPLE) HarfBuzz-ng 9.0.0 (COMPLEX)
+            osd/libass: Setting up fonts...
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\OpenSans-Bold.ttf'
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\uosc_icons.otf'
+                stream: No protocol handler found to open URL mpv://play/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj10UkNja3dFWEJtaw/?referer=aHR0cHM6Ly93d3cueW91dHViZS5jb20vP2FwcD1kZXNrdG9w
+                stream: The protocol is either unsupported, or was disabled at compile-time.
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\uosc_textures.ttf'
+               cplayer: Opening failed or was aborted: mpv://play/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj10UkNja3dFWEJtaw/?referer=aHR0cHM6Ly93d3cueW91dHViZS5jb20vP2FwcD1kZXNrdG9w
+            osd/libass: Using font provider directwrite (with GDI)
+            osd/libass: Done.
+               cplayer: Running hook: ytdl_hook/on_load_fail
+             ytdl_hook: full hook
+               cplayer: Running hook: ytdl_preload/on_unload
+               cplayer: finished playback, loading failed (reason 4)
+               cplayer: Exiting... (Errors when loading file)
+          ytdl_preload: clear
+     vo/gpu-next/win32: uninit
+
+C:\MPV>mpv mpv://play/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj10UkNja3dFWEJtaw/?referer=aHR0cHM6Ly93d3cueW91dHViZS5jb20vP2FwcD1kZXNrdG9w -v
+[cplayer] Command line options: 'mpv://play/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj10UkNja3dFWEJtaw/?referer=aHR0cHM6Ly93d3cueW91dHViZS5jb20vP2FwcD1kZXNrdG9w' '-v'
+[cplayer] mpv v0.38.0-578-ge07470ad Copyright © 2000-2024 mpv/MPlayer/mplayer2 projects
+[cplayer]  built on Jul  4 2024 23:04:24
+[cplayer] libplacebo version: v7.349.0 (v7.349.0-dirty)
+[cplayer] FFmpeg version: N-116142-ge14cdf999
+[cplayer] FFmpeg library versions:
+[cplayer]    libavcodec      61.9.100
+[cplayer]    libavdevice     61.2.100
+[cplayer]    libavfilter     10.2.102
+[cplayer]    libavformat     61.4.100
+[cplayer]    libavutil       59.28.100
+[cplayer]    libswresample   5.2.100
+[cplayer]    libswscale      8.2.100
+[cplayer]
+[cplayer] Configuration: -Ddebug=true -Db_ndebug=true -Doptimization=3 -Db_lto=true -Db_lto_mode=thin -Dlibmpv=true -Dpdf-build=enabled -Dlua=enabled -Djavascript=enabled -Dsdl2=enabled -Dlibarchive=enabled -Dlibbluray=enabled -Ddvdnav=enabled -Duchardet=enabled -Drubberband=enabled -Dlcms2=enabled -Dopenal=enabled -Dspirv-cross=enabled -Dvulkan=enabled -Dvapoursynth=enabled -Degl-angle=enabled -Dc_args=-Wno-error=int-conversion -Dprefix=/__w/mpv-winbuild/mpv-winbuild/mpv-winbuild-cmake/build64/install/x86_64-w64-mingw32 -Dlibdir=/__w/mpv-winbuild/mpv-winbuild/mpv-winbuild-cmake/build64/install/x86_64-w64-mingw32/lib -Ddefault_library=shared -Dprefer_static=True --cross-file=/__w/mpv-winbuild/mpv-winbuild/mpv-winbuild-cmake/build64/meson_cross.txt
+[cplayer] List of enabled features: build-date cplugins cuda-hwaccel cuda-interop d3d-hwaccel d3d11 d3d9-hwaccel debug direct3d dos-paths dvdnav dxgi-debug dxgi-debug-d3d11 egl-angle egl-angle-win32 ffmpeg ffnvcodec gl gl-dxinterop gl-dxinterop-d3d9 gl-win32 glob glob-win32 gpl iconv javascript jpeg lcms2 libarchive libass libavdevice libbluray libplacebo luajit openal pathcch rubberband rubberband-3 sdl2 sdl2-audio sdl2-gamepad sdl2-video shaderc spirv-cross uchardet vaapi vaapi-win32 vapoursynth vector vulkan vulkan-interop wasapi win32 win32-desktop win32-executable win32-threads zimg zimg-st428 zlib
+[cplayer] Built with NDEBUG.
+[cplayer] Reading config file C:/MPV/portable_config/mpv.conf
+[ifo_dvdnav] Opening C:/MPV/portable_config/mpv.conf
+[bdmv/bluray] Opening C:/MPV/portable_config/mpv.conf
+[file] Opening C:/MPV/portable_config/mpv.conf
+[cplayer] Error parsing option d3d11va (option not found)
+[cplayer] C:/MPV/portable_config/mpv.conf:26: setting option d3d11va='yes' failed.
+[cplayer] Option gpu-context: this option does not accept sub-options.
+[cplayer] Sub-options for --vo and --ao were removed from mpv in release 0.23.0.
+[cplayer] See https://0x0.st/uM for details.
+[cplayer] Error parsing option gpu-context (option parameter could not be parsed)
+[cplayer] C:/MPV/portable_config/mpv.conf:31: setting option gpu-context='d3d11:adapter=0' failed.
+[cplayer] Error parsing option screenshot-jpg-compression (option not found)
+[cplayer] C:/MPV/portable_config/mpv.conf:116: setting option screenshot-jpg-compression='9' failed.
+[cplayer] Option --focus-on-open was removed: Replaced by --focus-on
+[cplayer] Error parsing option no-focus-on-open (option not found)
+[cplayer] C:/MPV/portable_config/mpv.conf:151: setting option no-focus-on-open='' failed.
+[cplayer] Error parsing option cache-backbuffer (option not found)
+[cplayer] C:/MPV/portable_config/mpv.conf:220: setting option cache-backbuffer='500000' failed.
+[cplayer] Error parsing option cache-initial (option not found)
+[cplayer] C:/MPV/portable_config/mpv.conf:221: setting option cache-initial='0' failed.
+[cplayer] Applying profile 'default'...
+[cplayer] Setting option 'include' = '~~/profiles.conf' (flags = 4)
+[cplayer] Reading config file C:/MPV/portable_config/profiles.conf
+[ifo_dvdnav] Opening C:/MPV/portable_config/profiles.conf
+[bdmv/bluray] Opening C:/MPV/portable_config/profiles.conf
+[file] Opening C:/MPV/portable_config/profiles.conf
+[cplayer] Setting option 'geometry' = '50%:50%' (flags = 4)
+[cplayer] Setting option 'autofit-larger' = '80%x80%' (flags = 4)
+[cplayer] Setting option 'prefetch-playlist' = 'yes' (flags = 4)
+[cplayer] Setting option 'force-seekable' = 'yes' (flags = 4)
+[cplayer] Setting option 'keep-open' = 'yes' (flags = 4)
+[cplayer] Setting option 'reset-on-next-file' = 'pause' (flags = 4)
+[cplayer] Setting option 'msg-color' = 'yes' (flags = 4)
+[cplayer] Setting option 'msg-module' = 'yes' (flags = 4)
+[cplayer] Setting option 'image-display-duration' = 'inf' (flags = 4)
+[cplayer] Setting option 'hr-seek' = 'yes' (flags = 4)
+[cplayer] Setting option 'vd-lavc-fast' = 'yes' (flags = 4)
+[cplayer] Setting option 'log-file' = '~~desktop/mpv-log.txt' (flags = 4)
+[cplayer] Setting option 'vo' = 'gpu-next' (flags = 4)
+[cplayer] Setting option 'hwdec' = 'auto-safe' (flags = 4)
+[cplayer] Setting option 'profile' = 'Balanced' (flags = 4)
+[cplayer] Applying profile 'Balanced'...
+[cplayer] Setting option 'glsl-shaders-clr' = '' (flags = 4)
+[cplayer] Setting option 'scale' = 'lanczos' (flags = 4)
+[cplayer] Setting option 'cscale' = 'catmull_rom' (flags = 4)
+[cplayer] Setting option 'libplacebo-opts' = 'downscaler=custom,downscaler_preset=hermite,downscaler_polar=true,downscaler_antiring=0' (flags = 4)
+[cplayer] Setting option 'correct-downscaling' = 'yes' (flags = 4)
+[cplayer] Setting option 'linear-downscaling' = 'yes' (flags = 4)
+[cplayer] Setting option 'sigmoid-upscaling' = 'yes' (flags = 4)
+[cplayer] Setting option 'hdr-compute-peak' = 'yes' (flags = 4)
+[cplayer] Setting option 'hdr-peak-percentile' = '100' (flags = 4)
+[cplayer] Setting option 'hdr-contrast-recovery' = '0.0' (flags = 4)
+[cplayer] Setting option 'allow-delayed-peak-detect' = 'no' (flags = 4)
+[cplayer] Setting option 'dither-depth' = 'auto' (flags = 4)
+[cplayer] Setting option 'gpu-api' = 'd3d11' (flags = 4)
+[cplayer] Setting option 'hwdec' = 'd3d11va' (flags = 4)
+[cplayer] Setting option 'd3d11va-zero-copy' = 'yes' (flags = 4)
+[cplayer] Setting option 'cache' = 'auto' (flags = 4)
+[cplayer] Setting option 'demuxer-max-bytes' = '1GiB' (flags = 4)
+[cplayer] Setting option 'demuxer-readahead-secs' = '300' (flags = 4)
+[cplayer] Setting option 'demuxer-max-back-bytes' = '500MiB' (flags = 4)
+[cplayer] Setting option 'ytdl-format' = 'bestvideo+bestaudio/best' (flags = 4)
+[cplayer] Setting option 'load-unsafe-playlists' = 'yes' (flags = 4)
+[cplayer] Setting option 'ytdl-raw-options' = 'write-thumbnail=,sub-lang="vi,vi-vi,en,en-en"' (flags = 4)
+[cplayer] Setting option 'deband' = 'no' (flags = 4)
+[cplayer] Setting option 'deband-iterations' = '1' (flags = 4)
+[cplayer] Setting option 'deband-threshold' = '48' (flags = 4)
+[cplayer] Setting option 'deband-range' = '32' (flags = 4)
+[cplayer] Setting option 'deband-grain' = '32' (flags = 4)
+[cplayer] Setting option 'osd-bar' = 'no' (flags = 4)
+[cplayer] Setting option 'osc' = 'no' (flags = 4)
+[cplayer] Setting option 'border' = 'no' (flags = 4)
+[cplayer] Setting option 'cursor-autohide' = '100' (flags = 4)
+[cplayer] Setting option 'osd-level' = '1' (flags = 4)
+[cplayer] Setting option 'osd-duration' = '1000' (flags = 4)
+[cplayer] Setting option 'osd-font' = 'Open Sans' (flags = 4)
+[cplayer] Setting option 'osd-font-size' = '40' (flags = 4)
+[cplayer] Setting option 'osd-border-size' = '2.4' (flags = 4)
+[cplayer] Setting option 'osd-shadow-offset' = '0.75' (flags = 4)
+[cplayer] Setting option 'osd-bold' = 'yes' (flags = 4)
+[cplayer] Setting option 'track-auto-selection' = 'yes' (flags = 4)
+[cplayer] Setting option 'alang' = 'en,eng,ja,jp,jpn,vi,vie,en,eng' (flags = 4)
+[cplayer] Setting option 'slang' = 'vi,vie' (flags = 4)
+[cplayer] Setting option 'volume' = '100' (flags = 4)
+[cplayer] Setting option 'audio-file-auto' = 'fuzzy' (flags = 4)
+[cplayer] Setting option 'volume-max' = '200' (flags = 4)
+[cplayer] Setting option 'audio-pitch-correction' = 'yes' (flags = 4)
+[cplayer] Setting option 'demuxer-mkv-subtitle-preroll' = 'yes' (flags = 4)
+[cplayer] Setting option 'sub-ass-vsfilter-blur-compat' = 'no' (flags = 4)
+[cplayer] Setting option 'sub-fix-timing' = 'no' (flags = 4)
+[cplayer] Setting option 'sub-auto' = 'fuzzy' (flags = 4)
+[cplayer] Setting option 'sub-file-paths-append' = 'ass' (flags = 4)
+[cplayer] Setting option 'sub-file-paths-append' = 'srt' (flags = 4)
+[cplayer] Setting option 'sub-file-paths-append' = 'pgs' (flags = 4)
+[cplayer] Setting option 'sub-file-paths-append' = 'vob' (flags = 4)
+[cplayer] Setting option 'sub-file-paths-append' = 'sub' (flags = 4)
+[cplayer] Setting option 'sub-file-paths-append' = 'sup' (flags = 4)
+[cplayer] Setting option 'sub-file-paths-append' = 'subs' (flags = 4)
+[cplayer] Setting option 'sub-file-paths-append' = 'subtitles' (flags = 4)
+[cplayer] Setting option 'sub-font' = 'Open Sans' (flags = 4)
+[cplayer] Setting option 'sub-font-size' = '40' (flags = 4)
+[cplayer] Setting option 'sub-color' = '#FFFFFFFF' (flags = 4)
+[cplayer] Setting option 'sub-border-color' = '#FF000000' (flags = 4)
+[cplayer] Setting option 'sub-shadow-color' = '0.0/0.0/0.0/0.70' (flags = 4)
+[cplayer] Setting option 'sub-border-size' = '2.0' (flags = 4)
+[cplayer] Setting option 'sub-shadow-offset' = '0.75' (flags = 4)
+[cplayer] Setting option 'sub-spacing' = '0.0' (flags = 4)
+[cplayer] Setting option 'sub-bold' = 'yes' (flags = 4)
+[cplayer] Setting option 'sub-use-margins' = 'no' (flags = 4)
+[cplayer] Setting option 'sub-gauss' = '0.05' (flags = 4)
+[cplayer] Setting option 'screenshot-format' = 'jpg' (flags = 4)
+[cplayer] Setting option 'screenshot-high-bit-depth' = 'no' (flags = 4)
+[cplayer] Setting option 'screenshot-tag-colorspace' = 'no' (flags = 4)
+[cplayer] Setting option 'screenshot-png-compression' = '9' (flags = 4)
+[cplayer] Setting option 'screenshot-dir' = '~/Pictures/mpv' (flags = 4)
+[cplayer] Setting option 'screenshot-template' = '%{?demuxer-via-network==yes:${media-title}%{?demuxer-via-network==yes:_${filename/no-ext}%{!demuxer-via-network==yes:${filename}-%wH.%wM.%wS.%wT-#%#00n' (flags = 4)
+[cplayer] Setting option 'tscale' = 'oversample' (flags = 4)
+[cplayer] Setting option 'target-colorspace-hint' = 'no' (flags = 4)
+[cplayer] Setting option 'tone-mapping' = 'spline' (flags = 4)
+[cplayer] Setting option 'libplacebo-opts-append' = 'gamut_expansion=yes' (flags = 4)
+[cplayer] Setting option 'libplacebo-opts-append' = 'perceptual_deadzone=0.4' (flags = 4)
+[cplayer] Setting option 'libplacebo-opts-append' = 'perceptual_strength=0.5' (flags = 4)
+[cplayer] Setting option 'ontop' = '' (flags = 4)
+[cplayer] Setting option 'osd-on-seek' = 'no' (flags = 4)
+[cplayer] Setting option 'osd-font-size' = '24' (flags = 4)
+[cplayer] Setting option 'keep-open' = 'yes' (flags = 4)
+[cplayer] Setting option 'force-window' = 'immediate' (flags = 4)
+[cplayer] Setting option 'geometry' = '25%x25%-10-10' (flags = 4)
+[cplayer] Setting option 'load-unsafe-playlists' = 'yes' (flags = 4)
+[cplayer] Setting option 'user-agent' = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/127.0' (flags = 4)
+[cplayer] Setting option 'force-seekable' = 'yes' (flags = 4)
+[cplayer] Setting option 'hr-seek' = 'yes' (flags = 4)
+[cplayer] Setting option 'hr-seek-framedrop' = 'yes' (flags = 4)
+[cplayer] Setting option 'osc' = 'no' (flags = 4)
+[cplayer] Setting option 'osd-bar' = 'no' (flags = 4)
+[cplayer] Setting option 'hwdec' = 'auto-safe' (flags = 4)
+[cplayer] Setting option 'vo' = 'gpu-next' (flags = 4)
+[cplayer] Setting option 'tscale' = 'nearest' (flags = 4)
+[cplayer] Setting option 'interpolation' = 'no' (flags = 4)
+[cplayer] Setting option 'scale' = 'bilinear' (flags = 4)
+[cplayer] Setting option 'cscale' = 'bilinear' (flags = 4)
+[cplayer] Setting option 'dscale' = 'bilinear' (flags = 4)
+[cplayer] Setting option 'sws-scaler' = 'fast-bilinear' (flags = 4)
+[cplayer] Setting option 'dither' = 'no' (flags = 4)
+[cplayer] Setting option 'correct-downscaling' = 'no' (flags = 4)
+[cplayer] Setting option 'linear-downscaling' = 'no' (flags = 4)
+[cplayer] Setting option 'sigmoid-upscaling' = 'no' (flags = 4)
+[cplayer] Setting option 'hdr-compute-peak' = 'no' (flags = 4)
+[cplayer] Setting option 'volume-max' = '200' (flags = 4)
+[cplayer] Setting option 'volume' = '100' (flags = 4)
+[cplayer] Setting option 'cache-pause' = '' (flags = 4)
+[cplayer] Setting option 'cache' = 'yes' (flags = 4)
+[cplayer] Setting option 'cache-secs' = '1000' (flags = 4)
+[cplayer] Setting option 'demuxer-thread' = 'yes' (flags = 4)
+[cplayer] Setting option 'demuxer-max-back-bytes' = '50MiB' (flags = 4)
+[cplayer] Setting option 'demuxer-readahead-secs' = '600' (flags = 4)
+[cplayer] Setting option 'network-timeout' = '100' (flags = 4)
+[cplayer] Setting option 'stream-lavf-o-append' = 'reconnect_on_http_error=4xx,5xx' (flags = 4)
+[cplayer] Setting option 'stream-lavf-o-append' = 'reconnect_delay_max=30' (flags = 4)
+[cplayer] Setting option 'stream-lavf-o-append' = 'reconnect_streamed=yes' (flags = 4)
+[cplayer] Setting option 'ytdl-raw-options-append' = 'no-check-certificates=' (flags = 4)
+[cplayer] Setting option 'ytdl-raw-options-append' = 'yes-playlist=' (flags = 4)
+[cplayer] Setting option 'ytdl-raw-options-append' = 'sub-langs=en,en-US,eng,vi,vi-VN,vie,ja,ja-JP,jap,zh-[^-]*,zh-.*-en,live_chat' (flags = 4)
+[cplayer] Setting option 'ytdl-raw-options-append' = 'write-sub=' (flags = 4)
+[cplayer] Setting option 'ytdl-raw-options-append' = 'write-auto-sub=' (flags = 4)
+[cplayer] Setting option 'ytdl-raw-options-append' = 'add-metadata=' (flags = 4)
+[cplayer] Setting option 'ytdl-raw-options-append' = 'audio-multistreams=' (flags = 4)
+[cplayer] Setting option 'ytdl-raw-options-append' = 'video-multistreams=' (flags = 4)
+[cplayer] Setting option 'v' = '' (flags = 8)
+[ifo_dvdnav] Opening C:/MPV/portable_config/input.conf
+[bdmv/bluray] Opening C:/MPV/portable_config/input.conf
+[file] Opening C:/MPV/portable_config/input.conf
+[input] Parsing input config file C:/MPV/portable_config/input.conf
+[input] Unknown key 'script-binding' at C:/MPV/portable_config/input.conf:258
+[input] Input config file C:/MPV/portable_config/input.conf parsed: 165 binds
+   cplayer: mpv v0.38.0-578-ge07470ad Copyright © 2000-2024 mpv/MPlayer/mplayer2 projects
+   cplayer:  built on Jul  4 2024 23:04:24
+   cplayer: libplacebo version: v7.349.0 (v7.349.0-dirty)
+   cplayer: FFmpeg version: N-116142-ge14cdf999
+   cplayer: FFmpeg library versions:
+   cplayer:    libavcodec      61.9.100
+   cplayer:    libavdevice     61.2.100
+   cplayer:    libavfilter     10.2.102
+   cplayer:    libavformat     61.4.100
+   cplayer:    libavutil       59.28.100
+   cplayer:    libswresample   5.2.100
+   cplayer:    libswscale      8.2.100
+   cplayer:
+   cplayer: Configuration: -Ddebug=true -Db_ndebug=true -Doptimization=3 -Db_lto=true -Db_lto_mode=thin -Dlibmpv=true -Dpdf-build=enabled -Dlua=enabled -Djavascript=enabled -Dsdl2=enabled -Dlibarchive=enabled -Dlibbluray=enabled -Ddvdnav=enabled -Duchardet=enabled -Drubberband=enabled -Dlcms2=enabled -Dopenal=enabled -Dspirv-cross=enabled -Dvulkan=enabled -Dvapoursynth=enabled -Degl-angle=enabled -Dc_args=-Wno-error=int-conversion -Dprefix=/__w/mpv-winbuild/mpv-winbuild/mpv-winbuild-cmake/build64/install/x86_64-w64-mingw32 -Dlibdir=/__w/mpv-winbuild/mpv-winbuild/mpv-winbuild-cmake/build64/install/x86_64-w64-mingw32/lib -Ddefault_library=shared -Dprefer_static=True --cross-file=/__w/mpv-winbuild/mpv-winbuild/mpv-winbuild-cmake/build64/meson_cross.txt
+   cplayer: List of enabled features: build-date cplugins cuda-hwaccel cuda-interop d3d-hwaccel d3d11 d3d9-hwaccel debug direct3d dos-paths dvdnav dxgi-debug dxgi-debug-d3d11 egl-angle egl-angle-win32 ffmpeg ffnvcodec gl gl-dxinterop gl-dxinterop-d3d9 gl-win32 glob glob-win32 gpl iconv javascript jpeg lcms2 libarchive libass libavdevice libbluray libplacebo luajit openal pathcch rubberband rubberband-3 sdl2 sdl2-audio sdl2-gamepad sdl2-video shaderc spirv-cross uchardet vaapi vaapi-win32 vapoursynth vector vulkan vulkan-interop wasapi win32 win32-desktop win32-executable win32-threads zimg zimg-st428 zlib
+   cplayer: Built with NDEBUG.
+   cplayer: Cannot find main.* for any supported scripting backend in: C:/MPV/portable_config/scripts/PENDING
+slicing_copy: Opened config file script-opts/slicing_copy.conf.
+quality_menu: Opened config file script-opts/quality-menu.conf.
+protocol_hook: Opened config file script-opts/protocol_hook.conf.
+ ytdl_preload: Opened config file script-opts/ytdl_preload.conf.
+   streamsave: Opened config file script-opts/streamsave.conf.
+     autocrop: Opened config file script-opts/autocrop.conf.
+     clipshot: Opened config file script-opts/clipshot.conf.
+    thumbfast: Opened config file script-opts/thumbfast.conf.
+  vo/gpu-next: Probing for best GPU context.
+     clipshot: script-opts/clipshot.conf:1 unknown key 'name ', ignoring
+         memo: Opened config file script-opts/memo.conf.
+         webm: Opened config file script-opts/webm.conf.
+     clipshot: script-opts/clipshot.conf:2 unknown key 'type ', ignoring
+playlistmanager: Opened config file script-opts/playlistmanager.conf.
+vo/gpu-next/d3d11: Initializing GPU context 'd3d11'
+   SmartCopyPaste: Opened config file script-opts/SmartCopyPaste.conf.
+          evafast: Opened config file script-opts/evafast.conf.
+vo/gpu-next/d3d11: Using Direct3D 11 feature level 11_1
+vo/gpu-next/d3d11: Device Name: Intel(R) Iris(TM) Graphics 5100
+vo/gpu-next/d3d11: Device ID: 8086:0a2e (rev 09)
+vo/gpu-next/d3d11: Subsystem ID: 106b:011a
+vo/gpu-next/d3d11: LUID: 0000000000008322
+vo/gpu-next/d3d11: Initializing SPIR-V compiler 'shaderc'
+vo/gpu-next/d3d11: Using Direct3D 11.1 runtime
+vo/gpu-next/d3d11: Maximum Texture2D size: 16384x16384
+vo/gpu-next/d3d11: D3DCompiler version: 10.0.22621.608
+vo/gpu-next/d3d11: Using DXGI 1.2+
+vo/gpu-next/d3d11: Queried output: \\.\DISPLAY1, 2560x1600 @ 8 bits, colorspace: RGB_FULL_G22_NONE_P709 (0)
+vo/gpu-next/d3d11: Selected swapchain format R8G8B8A8_UNORM (28), attempting to utilize it.
+vo/gpu-next/d3d11: Selected swapchain color space RGB_FULL_G22_NONE_P709 (0), attempting to utilize it.
+vo/gpu-next/d3d11: Swapchain capabilities for color space RGB_FULL_G22_NONE_P709 (0): normal: yes, overlay: no
+vo/gpu-next/d3d11: Swapchain successfully configured to color space RGB_FULL_G22_NONE_P709 (0)!
+vo/gpu-next/d3d11: Using flip-model presentation
+vo/gpu-next/libplacebo: Initialized libplacebo v7.349.0 (v7.349.0-dirty) (API v349)
+vo/gpu-next/libplacebo: Using DXGI 1.2+
+vo/gpu-next/libplacebo: Using Direct3D 11 feature level 11_1
+vo/gpu-next/libplacebo: Direct3D 11 device properties:
+vo/gpu-next/libplacebo:     Device Name: Intel(R) Iris(TM) Graphics 5100
+vo/gpu-next/libplacebo:     Device ID: 8086:0a2e (rev 09)
+vo/gpu-next/libplacebo:     Subsystem ID: 106b:011a
+vo/gpu-next/libplacebo:     LUID: 0000000000008322
+vo/gpu-next/libplacebo:     Driver version: 10.18.15.4240
+vo/gpu-next/libplacebo: shaderc SPIR-V version 1.6 rev 1
+vo/gpu-next/libplacebo: Initialized SPIR-V compiler 'shaderc'
+vo/gpu-next/libplacebo: Using Direct3D 11.4 runtime
+vo/gpu-next/libplacebo: D3DCompiler version: 10.0.22621.608
+vo/gpu-next/libplacebo: GPU information:
+vo/gpu-next/libplacebo:     GLSL version: 450 (vulkan)
+vo/gpu-next/libplacebo:       max_shmem_size:            32768
+vo/gpu-next/libplacebo:       max_group_threads:         1024
+vo/gpu-next/libplacebo:       max_group_size[0]:         1024
+vo/gpu-next/libplacebo:       max_group_size[1]:         1024
+vo/gpu-next/libplacebo:       max_group_size[2]:         64
+vo/gpu-next/libplacebo:       subgroup_size:             0
+vo/gpu-next/libplacebo:       min_gather_offset:         -32
+vo/gpu-next/libplacebo:       max_gather_offset:         31
+vo/gpu-next/libplacebo:     Limits:
+vo/gpu-next/libplacebo:       thread_safe:               0
+vo/gpu-next/libplacebo:       callbacks:                 0
+vo/gpu-next/libplacebo:       max_buf_size:              134217728
+vo/gpu-next/libplacebo:       max_ubo_size:              65536
+vo/gpu-next/libplacebo:       max_ssbo_size:             134217728
+vo/gpu-next/libplacebo:       max_vbo_size:              134217728
+vo/gpu-next/libplacebo:       max_mapped_size:           0
+vo/gpu-next/libplacebo:       max_buffer_texels:         134217728
+vo/gpu-next/libplacebo:       align_host_ptr:            0
+vo/gpu-next/libplacebo:       host_cached:               0
+vo/gpu-next/libplacebo:       max_tex_1d_dim:            16384
+vo/gpu-next/libplacebo:       max_tex_2d_dim:            16384
+vo/gpu-next/libplacebo:       max_tex_3d_dim:            2048
+vo/gpu-next/libplacebo:       blittable_1d_3d:           1
+vo/gpu-next/libplacebo:       buf_transfer:              0
+vo/gpu-next/libplacebo:       align_tex_xfer_pitch:      1
+vo/gpu-next/libplacebo:       align_tex_xfer_offset:     32
+vo/gpu-next/libplacebo:       max_variable_comps:        0
+vo/gpu-next/libplacebo:       max_constants:             0
+vo/gpu-next/libplacebo:       max_pushc_size:            0
+vo/gpu-next/libplacebo:       align_vertex_stride:       1
+vo/gpu-next/libplacebo:       max_dispatch[0]:           65535
+vo/gpu-next/libplacebo:       max_dispatch[1]:           65535
+vo/gpu-next/libplacebo:       max_dispatch[2]:           65535
+vo/gpu-next/libplacebo:       fragment_queues:           1
+vo/gpu-next/libplacebo:       compute_queues:            1
+vo/gpu-next/libplacebo: Using flip-model presentation
+vo/gpu-next/libplacebo: Initial swap chain configuration: format: R10G10B10A2_UNORM, color space: RGB_FULL_G22_NONE_P709.
+     vo/gpu-next/win32: DPI detected from the new API: 154
+     vo/gpu-next/win32: display-fps: 59.971589
+     vo/gpu-next/win32: color-profile: C:\Windows\system32\spool\drivers\color\sRGB Color Space Profile.icm
+           vo/gpu-next: Assuming 59.971589 FPS for display sync.
+           vo/gpu-next: reconfig to 960x540 yuv444p auto/auto/auto/auto/auto CL=unknown
+     vo/gpu-next/win32: reset window bounds: 1910:1133:640:380
+     vo/gpu-next/win32: resize window: 640:380
+     vo/gpu-next/win32: resize window: 640:380
+           vo/gpu-next: Window size: 640x380 (Borders: l=0 t=0 r=0 b=0)
+           vo/gpu-next: Video source: 960x540 (1:1)
+           vo/gpu-next: Video display: (0, 0) 960x540 -> (0, 10) 640x360
+           vo/gpu-next: Video scale: 0.666667/0.666667
+           vo/gpu-next: OSD borders: l=0 t=10 r=0 b=10
+           vo/gpu-next: Video borders: l=0 t=10 r=0 b=10
+vo/gpu-next/libplacebo: Attempting to reconfigure swap chain format: R8G8B8A8_UNORM -> R10G10B10A2_UNORM
+           vo/gpu-next: Window size: 640x380 (Borders: l=0 t=0 r=0 b=0)
+           vo/gpu-next: Video source: 960x540 (1:1)
+           vo/gpu-next: Video display: (0, 0) 960x540 -> (0, 10) 640x360
+           vo/gpu-next: Video scale: 0.666667/0.666667
+           vo/gpu-next: OSD borders: l=0 t=10 r=0 b=10
+           vo/gpu-next: Video borders: l=0 t=10 r=0 b=10
+               cplayer: Waiting for scripts...
+         protocol_hook:
+       playlistmanager: auto showamount: 24
+                  webm: Loaded mpv-webm script!
+       playlistmanager: updating options
+         protocol_hook: false
+                  uosc: Opened config file script-opts/uosc.conf.
+         protocol_hook:
+         protocol_hook: C:/MPV/portable_config
+         protocol_hook: C:/MPV
+         protocol_hook: C:/MPV
+          ytdl_preload: No youtube-dl found with path yt-dlp.exe in config directories
+         protocol_hook: { ["stream_quality"] = 720p,best,worst,["cwd"] = ,["ipcMode"] = true,["proxy"] = ,["nogeometry"] = true,}
+         auto_profiles: Re-evaluating auto profile Normalize
+            osd/libass: libass API version: 0x1703000
+            osd/libass: libass source: meson, commit: 0.17.3-0-ge46aedea0a0d17da4c4ef49d84b94a7994664ab5
+            osd/libass: Shaper: FriBidi 1.0.15 (SIMPLE) HarfBuzz-ng 9.0.0 (COMPLEX)
+            osd/libass: Setting up fonts...
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\OpenSans-Bold.ttf'
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\uosc_icons.otf'
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\uosc_textures.ttf'
+            osd/libass: Using font provider directwrite (with GDI)
+            osd/libass: Done.
+         auto_profiles: Profile condition error on evaluating: [string "profile Normalize condition"]:1: attempt to compare number with nil
+         auto_profiles: Re-evaluating auto profile interpolation-activate
+          ytdl_preload: Found youtube-dl with path yt-dlp.exe in PATH
+         auto_profiles: Re-evaluating auto profile stream-no-ytdl
+            osd/libass: libass API version: 0x1703000
+            osd/libass: libass source: meson, commit: 0.17.3-0-ge46aedea0a0d17da4c4ef49d84b94a7994664ab5
+            osd/libass: Shaper: FriBidi 1.0.15 (SIMPLE) HarfBuzz-ng 9.0.0 (COMPLEX)
+            osd/libass: Setting up fonts...
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\OpenSans-Bold.ttf'
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\uosc_icons.otf'
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\uosc_textures.ttf'
+            osd/libass: Using font provider directwrite (with GDI)
+            osd/libass: Done.
+            osd/libass: fontselect: (Open Sans, 700, 0) -> OpenSans-Bold, 0, OpenSans-Bold
+            osd/libass: fontselect: (sans-serif, 400, 0) -> ArialMT, 0, ArialMT
+            osd/libass: fontselect: (Open Sans, 400, 0) -> OpenSans-Bold, 0, OpenSans-Bold
+         auto_profiles: Profile condition error on evaluating: [string "profile stream-no-ytdl condition"]:1: bad argument #1 to 'find' (string expected, got nil)
+               cplayer: Done loading scripts.
+         auto_profiles: Re-evaluating auto profile quality-youtube
+         auto_profiles: Profile condition error on evaluating: [string "profile quality-youtube condition"]:1: bad argument #1 to 'find' (string expected, got nil)
+         auto_profiles: Re-evaluating auto profile Normalize
+               cplayer: Running hook: auto_profiles/on_before_start_file
+         auto_profiles: Profile condition error on evaluating: [string "profile Normalize condition"]:1: attempt to compare number with nil
+         auto_profiles: Re-evaluating auto profile interpolation-activate
+         auto_profiles: Re-evaluating auto profile stream-no-ytdl
+         auto_profiles: Profile condition error on evaluating: [string "profile stream-no-ytdl condition"]:1: bad argument #1 to 'find' (string expected, got nil)
+         auto_profiles: Re-evaluating auto profile quality-youtube
+         auto_profiles: Profile condition error on evaluating: [string "profile quality-youtube condition"]:1: bad argument #1 to 'find' (string expected, got nil)
+               cplayer: Running hook: protocol_hook/on_load
+         auto_profiles: Re-evaluating auto profile stream-no-ytdl
+         auto_profiles: Re-evaluating auto profile quality-youtube
+              autoload: stopping: manually made playlist
+            osd/libass: libass API version: 0x1703000
+            osd/libass: libass source: meson, commit: 0.17.3-0-ge46aedea0a0d17da4c4ef49d84b94a7994664ab5
+         protocol_hook: https://www.youtube.com/?app=desktop
+            osd/libass: Shaper: FriBidi 1.0.15 (SIMPLE) HarfBuzz-ng 9.0.0 (COMPLEX)
+            osd/libass: Setting up fonts...
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\OpenSans-Bold.ttf'
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\uosc_icons.otf'
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\uosc_textures.ttf'
+            osd/libass: Using font provider directwrite (with GDI)
+            osd/libass: Done.
+               cplayer: Set property: http-header-fields=Referer: https://www.youtube.com/?app=desktop -> 1
+         protocol_hook: run cmd /c echo loadfile mpv://play/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj10UkNja3dFWEJtaw/?referer=aHR0cHM6Ly93d3cueW91dHViZS5jb20vP2FwcD1kZXNrdG9w append-play >\\.\pipe\mpvsocket
+            osd/libass: libass API version: 0x1703000
+            osd/libass: libass source: meson, commit: 0.17.3-0-ge46aedea0a0d17da4c4ef49d84b94a7994664ab5
+            osd/libass: Shaper: FriBidi 1.0.15 (SIMPLE) HarfBuzz-ng 9.0.0 (COMPLEX)
+            osd/libass: Setting up fonts...
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\OpenSans-Bold.ttf'
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\uosc_icons.otf'
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\uosc_textures.ttf'
+            osd/libass: Using font provider directwrite (with GDI)
+            osd/libass: Done.
+               cplayer: Running hook: quality_menu/on_load
+               cplayer: Running hook: ytdl_hook/on_load
+             ytdl_hook: ytdl:// hook
+             ytdl_hook: not a ytdl:// url
+               cplayer: Running hook: ytdl_hook/on_load
+            osd/libass: fontselect: (Open Sans, 700, 0) -> OpenSans-Bold, 0, OpenSans-Bold
+             ytdl_hook: playlist hook
+            osd/libass: fontselect: (sans-serif, 400, 0) -> ArialMT, 0, ArialMT
+            osd/libass: fontselect: (MaterialIconsRound-Regular, 400, 0) -> MaterialIconsRound-Regular, 0, MaterialIconsRound-Regular
+            osd/libass: fontselect: (Open Sans, 400, 0) -> OpenSans-Bold, 0, OpenSans-Bold
+               cplayer: Running hook: auto_profiles/on_load
+       stream_callback: Opening mpv://play/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj10UkNja3dFWEJtaw/?referer=aHR0cHM6Ly93d3cueW91dHViZS5jb20vP2FwcD1kZXNrdG9w
+                stream: No protocol handler found to open URL mpv://play/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj10UkNja3dFWEJtaw/?referer=aHR0cHM6Ly93d3cueW91dHViZS5jb20vP2FwcD1kZXNrdG9w
+                stream: The protocol is either unsupported, or was disabled at compile-time.
+               cplayer: Opening failed or was aborted: mpv://play/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj10UkNja3dFWEJtaw/?referer=aHR0cHM6Ly93d3cueW91dHViZS5jb20vP2FwcD1kZXNrdG9w
+               cplayer: Running hook: ytdl_hook/on_load_fail
+             ytdl_hook: full hook
+               cplayer: Running hook: ytdl_preload/on_unload
+               cplayer: finished playback, loading failed (reason 4)
+               cplayer: Exiting... (Errors when loading file)
+          ytdl_preload: clear
+     vo/gpu-next/win32: uninit
+
+C:\MPV>mpv mpv://play/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj10UkNja3dFWEJtaw/?referer=aHR0cHM6Ly93d3cueW91dHViZS5jb20vP2FwcD1kZXNrdG9w -v
+[cplayer] Command line options: 'mpv://play/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj10UkNja3dFWEJtaw/?referer=aHR0cHM6Ly93d3cueW91dHViZS5jb20vP2FwcD1kZXNrdG9w' '-v'
+[cplayer] mpv v0.38.0-578-ge07470ad Copyright © 2000-2024 mpv/MPlayer/mplayer2 projects
+[cplayer]  built on Jul  4 2024 23:04:24
+[cplayer] libplacebo version: v7.349.0 (v7.349.0-dirty)
+[cplayer] FFmpeg version: N-116142-ge14cdf999
+[cplayer] FFmpeg library versions:
+[cplayer]    libavcodec      61.9.100
+[cplayer]    libavdevice     61.2.100
+[cplayer]    libavfilter     10.2.102
+[cplayer]    libavformat     61.4.100
+[cplayer]    libavutil       59.28.100
+[cplayer]    libswresample   5.2.100
+[cplayer]    libswscale      8.2.100
+[cplayer]
+[cplayer] Configuration: -Ddebug=true -Db_ndebug=true -Doptimization=3 -Db_lto=true -Db_lto_mode=thin -Dlibmpv=true -Dpdf-build=enabled -Dlua=enabled -Djavascript=enabled -Dsdl2=enabled -Dlibarchive=enabled -Dlibbluray=enabled -Ddvdnav=enabled -Duchardet=enabled -Drubberband=enabled -Dlcms2=enabled -Dopenal=enabled -Dspirv-cross=enabled -Dvulkan=enabled -Dvapoursynth=enabled -Degl-angle=enabled -Dc_args=-Wno-error=int-conversion -Dprefix=/__w/mpv-winbuild/mpv-winbuild/mpv-winbuild-cmake/build64/install/x86_64-w64-mingw32 -Dlibdir=/__w/mpv-winbuild/mpv-winbuild/mpv-winbuild-cmake/build64/install/x86_64-w64-mingw32/lib -Ddefault_library=shared -Dprefer_static=True --cross-file=/__w/mpv-winbuild/mpv-winbuild/mpv-winbuild-cmake/build64/meson_cross.txt
+[cplayer] List of enabled features: build-date cplugins cuda-hwaccel cuda-interop d3d-hwaccel d3d11 d3d9-hwaccel debug direct3d dos-paths dvdnav dxgi-debug dxgi-debug-d3d11 egl-angle egl-angle-win32 ffmpeg ffnvcodec gl gl-dxinterop gl-dxinterop-d3d9 gl-win32 glob glob-win32 gpl iconv javascript jpeg lcms2 libarchive libass libavdevice libbluray libplacebo luajit openal pathcch rubberband rubberband-3 sdl2 sdl2-audio sdl2-gamepad sdl2-video shaderc spirv-cross uchardet vaapi vaapi-win32 vapoursynth vector vulkan vulkan-interop wasapi win32 win32-desktop win32-executable win32-threads zimg zimg-st428 zlib
+[cplayer] Built with NDEBUG.
+[cplayer] Reading config file C:/MPV/portable_config/mpv.conf
+[ifo_dvdnav] Opening C:/MPV/portable_config/mpv.conf
+[bdmv/bluray] Opening C:/MPV/portable_config/mpv.conf
+[file] Opening C:/MPV/portable_config/mpv.conf
+[cplayer] Error parsing option d3d11va (option not found)
+[cplayer] C:/MPV/portable_config/mpv.conf:26: setting option d3d11va='yes' failed.
+[cplayer] Option gpu-context: this option does not accept sub-options.
+[cplayer] Sub-options for --vo and --ao were removed from mpv in release 0.23.0.
+[cplayer] See https://0x0.st/uM for details.
+[cplayer] Error parsing option gpu-context (option parameter could not be parsed)
+[cplayer] C:/MPV/portable_config/mpv.conf:31: setting option gpu-context='d3d11:adapter=0' failed.
+[cplayer] Error parsing option screenshot-jpg-compression (option not found)
+[cplayer] C:/MPV/portable_config/mpv.conf:116: setting option screenshot-jpg-compression='9' failed.
+[cplayer] Option --focus-on-open was removed: Replaced by --focus-on
+[cplayer] Error parsing option no-focus-on-open (option not found)
+[cplayer] C:/MPV/portable_config/mpv.conf:151: setting option no-focus-on-open='' failed.
+[cplayer] Error parsing option cache-backbuffer (option not found)
+[cplayer] C:/MPV/portable_config/mpv.conf:220: setting option cache-backbuffer='500000' failed.
+[cplayer] Error parsing option cache-initial (option not found)
+[cplayer] C:/MPV/portable_config/mpv.conf:221: setting option cache-initial='0' failed.
+[cplayer] Applying profile 'default'...
+[cplayer] Setting option 'include' = '~~/profiles.conf' (flags = 4)
+[cplayer] Reading config file C:/MPV/portable_config/profiles.conf
+[ifo_dvdnav] Opening C:/MPV/portable_config/profiles.conf
+[bdmv/bluray] Opening C:/MPV/portable_config/profiles.conf
+[file] Opening C:/MPV/portable_config/profiles.conf
+[cplayer] Setting option 'geometry' = '50%:50%' (flags = 4)
+[cplayer] Setting option 'autofit-larger' = '80%x80%' (flags = 4)
+[cplayer] Setting option 'prefetch-playlist' = 'yes' (flags = 4)
+[cplayer] Setting option 'force-seekable' = 'yes' (flags = 4)
+[cplayer] Setting option 'keep-open' = 'yes' (flags = 4)
+[cplayer] Setting option 'reset-on-next-file' = 'pause' (flags = 4)
+[cplayer] Setting option 'msg-color' = 'yes' (flags = 4)
+[cplayer] Setting option 'msg-module' = 'yes' (flags = 4)
+[cplayer] Setting option 'image-display-duration' = 'inf' (flags = 4)
+[cplayer] Setting option 'hr-seek' = 'yes' (flags = 4)
+[cplayer] Setting option 'vd-lavc-fast' = 'yes' (flags = 4)
+[cplayer] Setting option 'log-file' = '~~desktop/mpv-log.txt' (flags = 4)
+[cplayer] Setting option 'vo' = 'gpu-next' (flags = 4)
+[cplayer] Setting option 'hwdec' = 'auto-safe' (flags = 4)
+[cplayer] Setting option 'profile' = 'Balanced' (flags = 4)
+[cplayer] Applying profile 'Balanced'...
+[cplayer] Setting option 'glsl-shaders-clr' = '' (flags = 4)
+[cplayer] Setting option 'scale' = 'lanczos' (flags = 4)
+[cplayer] Setting option 'cscale' = 'catmull_rom' (flags = 4)
+[cplayer] Setting option 'libplacebo-opts' = 'downscaler=custom,downscaler_preset=hermite,downscaler_polar=true,downscaler_antiring=0' (flags = 4)
+[cplayer] Setting option 'correct-downscaling' = 'yes' (flags = 4)
+[cplayer] Setting option 'linear-downscaling' = 'yes' (flags = 4)
+[cplayer] Setting option 'sigmoid-upscaling' = 'yes' (flags = 4)
+[cplayer] Setting option 'hdr-compute-peak' = 'yes' (flags = 4)
+[cplayer] Setting option 'hdr-peak-percentile' = '100' (flags = 4)
+[cplayer] Setting option 'hdr-contrast-recovery' = '0.0' (flags = 4)
+[cplayer] Setting option 'allow-delayed-peak-detect' = 'no' (flags = 4)
+[cplayer] Setting option 'dither-depth' = 'auto' (flags = 4)
+[cplayer] Setting option 'gpu-api' = 'd3d11' (flags = 4)
+[cplayer] Setting option 'hwdec' = 'd3d11va' (flags = 4)
+[cplayer] Setting option 'd3d11va-zero-copy' = 'yes' (flags = 4)
+[cplayer] Setting option 'cache' = 'auto' (flags = 4)
+[cplayer] Setting option 'demuxer-max-bytes' = '1GiB' (flags = 4)
+[cplayer] Setting option 'demuxer-readahead-secs' = '300' (flags = 4)
+[cplayer] Setting option 'demuxer-max-back-bytes' = '500MiB' (flags = 4)
+[cplayer] Setting option 'ytdl-format' = 'bestvideo+bestaudio/best' (flags = 4)
+[cplayer] Setting option 'load-unsafe-playlists' = 'yes' (flags = 4)
+[cplayer] Setting option 'ytdl-raw-options' = 'write-thumbnail=,sub-lang="vi,vi-vi,en,en-en"' (flags = 4)
+[cplayer] Setting option 'deband' = 'no' (flags = 4)
+[cplayer] Setting option 'deband-iterations' = '1' (flags = 4)
+[cplayer] Setting option 'deband-threshold' = '48' (flags = 4)
+[cplayer] Setting option 'deband-range' = '32' (flags = 4)
+[cplayer] Setting option 'deband-grain' = '32' (flags = 4)
+[cplayer] Setting option 'osd-bar' = 'no' (flags = 4)
+[cplayer] Setting option 'osc' = 'no' (flags = 4)
+[cplayer] Setting option 'border' = 'no' (flags = 4)
+[cplayer] Setting option 'cursor-autohide' = '100' (flags = 4)
+[cplayer] Setting option 'osd-level' = '1' (flags = 4)
+[cplayer] Setting option 'osd-duration' = '1000' (flags = 4)
+[cplayer] Setting option 'osd-font' = 'Open Sans' (flags = 4)
+[cplayer] Setting option 'osd-font-size' = '40' (flags = 4)
+[cplayer] Setting option 'osd-border-size' = '2.4' (flags = 4)
+[cplayer] Setting option 'osd-shadow-offset' = '0.75' (flags = 4)
+[cplayer] Setting option 'osd-bold' = 'yes' (flags = 4)
+[cplayer] Setting option 'track-auto-selection' = 'yes' (flags = 4)
+[cplayer] Setting option 'alang' = 'en,eng,ja,jp,jpn,vi,vie,en,eng' (flags = 4)
+[cplayer] Setting option 'slang' = 'vi,vie' (flags = 4)
+[cplayer] Setting option 'volume' = '100' (flags = 4)
+[cplayer] Setting option 'audio-file-auto' = 'fuzzy' (flags = 4)
+[cplayer] Setting option 'volume-max' = '200' (flags = 4)
+[cplayer] Setting option 'audio-pitch-correction' = 'yes' (flags = 4)
+[cplayer] Setting option 'demuxer-mkv-subtitle-preroll' = 'yes' (flags = 4)
+[cplayer] Setting option 'sub-ass-vsfilter-blur-compat' = 'no' (flags = 4)
+[cplayer] Setting option 'sub-fix-timing' = 'no' (flags = 4)
+[cplayer] Setting option 'sub-auto' = 'fuzzy' (flags = 4)
+[cplayer] Setting option 'sub-file-paths-append' = 'ass' (flags = 4)
+[cplayer] Setting option 'sub-file-paths-append' = 'srt' (flags = 4)
+[cplayer] Setting option 'sub-file-paths-append' = 'pgs' (flags = 4)
+[cplayer] Setting option 'sub-file-paths-append' = 'vob' (flags = 4)
+[cplayer] Setting option 'sub-file-paths-append' = 'sub' (flags = 4)
+[cplayer] Setting option 'sub-file-paths-append' = 'sup' (flags = 4)
+[cplayer] Setting option 'sub-file-paths-append' = 'subs' (flags = 4)
+[cplayer] Setting option 'sub-file-paths-append' = 'subtitles' (flags = 4)
+[cplayer] Setting option 'sub-font' = 'Open Sans' (flags = 4)
+[cplayer] Setting option 'sub-font-size' = '40' (flags = 4)
+[cplayer] Setting option 'sub-color' = '#FFFFFFFF' (flags = 4)
+[cplayer] Setting option 'sub-border-color' = '#FF000000' (flags = 4)
+[cplayer] Setting option 'sub-shadow-color' = '0.0/0.0/0.0/0.70' (flags = 4)
+[cplayer] Setting option 'sub-border-size' = '2.0' (flags = 4)
+[cplayer] Setting option 'sub-shadow-offset' = '0.75' (flags = 4)
+[cplayer] Setting option 'sub-spacing' = '0.0' (flags = 4)
+[cplayer] Setting option 'sub-bold' = 'yes' (flags = 4)
+[cplayer] Setting option 'sub-use-margins' = 'no' (flags = 4)
+[cplayer] Setting option 'sub-gauss' = '0.05' (flags = 4)
+[cplayer] Setting option 'screenshot-format' = 'jpg' (flags = 4)
+[cplayer] Setting option 'screenshot-high-bit-depth' = 'no' (flags = 4)
+[cplayer] Setting option 'screenshot-tag-colorspace' = 'no' (flags = 4)
+[cplayer] Setting option 'screenshot-png-compression' = '9' (flags = 4)
+[cplayer] Setting option 'screenshot-dir' = '~/Pictures/mpv' (flags = 4)
+[cplayer] Setting option 'screenshot-template' = '%{?demuxer-via-network==yes:${media-title}%{?demuxer-via-network==yes:_${filename/no-ext}%{!demuxer-via-network==yes:${filename}-%wH.%wM.%wS.%wT-#%#00n' (flags = 4)
+[cplayer] Setting option 'tscale' = 'oversample' (flags = 4)
+[cplayer] Setting option 'target-colorspace-hint' = 'no' (flags = 4)
+[cplayer] Setting option 'tone-mapping' = 'spline' (flags = 4)
+[cplayer] Setting option 'libplacebo-opts-append' = 'gamut_expansion=yes' (flags = 4)
+[cplayer] Setting option 'libplacebo-opts-append' = 'perceptual_deadzone=0.4' (flags = 4)
+[cplayer] Setting option 'libplacebo-opts-append' = 'perceptual_strength=0.5' (flags = 4)
+[cplayer] Setting option 'ontop' = '' (flags = 4)
+[cplayer] Setting option 'osd-on-seek' = 'no' (flags = 4)
+[cplayer] Setting option 'osd-font-size' = '24' (flags = 4)
+[cplayer] Setting option 'keep-open' = 'yes' (flags = 4)
+[cplayer] Setting option 'force-window' = 'immediate' (flags = 4)
+[cplayer] Setting option 'geometry' = '25%x25%-10-10' (flags = 4)
+[cplayer] Setting option 'load-unsafe-playlists' = 'yes' (flags = 4)
+[cplayer] Setting option 'user-agent' = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/127.0' (flags = 4)
+[cplayer] Setting option 'force-seekable' = 'yes' (flags = 4)
+[cplayer] Setting option 'hr-seek' = 'yes' (flags = 4)
+[cplayer] Setting option 'hr-seek-framedrop' = 'yes' (flags = 4)
+[cplayer] Setting option 'osc' = 'no' (flags = 4)
+[cplayer] Setting option 'osd-bar' = 'no' (flags = 4)
+[cplayer] Setting option 'hwdec' = 'auto-safe' (flags = 4)
+[cplayer] Setting option 'vo' = 'gpu-next' (flags = 4)
+[cplayer] Setting option 'tscale' = 'nearest' (flags = 4)
+[cplayer] Setting option 'interpolation' = 'no' (flags = 4)
+[cplayer] Setting option 'scale' = 'bilinear' (flags = 4)
+[cplayer] Setting option 'cscale' = 'bilinear' (flags = 4)
+[cplayer] Setting option 'dscale' = 'bilinear' (flags = 4)
+[cplayer] Setting option 'sws-scaler' = 'fast-bilinear' (flags = 4)
+[cplayer] Setting option 'dither' = 'no' (flags = 4)
+[cplayer] Setting option 'correct-downscaling' = 'no' (flags = 4)
+[cplayer] Setting option 'linear-downscaling' = 'no' (flags = 4)
+[cplayer] Setting option 'sigmoid-upscaling' = 'no' (flags = 4)
+[cplayer] Setting option 'hdr-compute-peak' = 'no' (flags = 4)
+[cplayer] Setting option 'volume-max' = '200' (flags = 4)
+[cplayer] Setting option 'volume' = '100' (flags = 4)
+[cplayer] Setting option 'cache-pause' = '' (flags = 4)
+[cplayer] Setting option 'cache' = 'yes' (flags = 4)
+[cplayer] Setting option 'cache-secs' = '1000' (flags = 4)
+[cplayer] Setting option 'demuxer-thread' = 'yes' (flags = 4)
+[cplayer] Setting option 'demuxer-max-back-bytes' = '50MiB' (flags = 4)
+[cplayer] Setting option 'demuxer-readahead-secs' = '600' (flags = 4)
+[cplayer] Setting option 'network-timeout' = '100' (flags = 4)
+[cplayer] Setting option 'stream-lavf-o-append' = 'reconnect_on_http_error=4xx,5xx' (flags = 4)
+[cplayer] Setting option 'stream-lavf-o-append' = 'reconnect_delay_max=30' (flags = 4)
+[cplayer] Setting option 'stream-lavf-o-append' = 'reconnect_streamed=yes' (flags = 4)
+[cplayer] Setting option 'ytdl-raw-options-append' = 'no-check-certificates=' (flags = 4)
+[cplayer] Setting option 'ytdl-raw-options-append' = 'yes-playlist=' (flags = 4)
+[cplayer] Setting option 'ytdl-raw-options-append' = 'sub-langs=en,en-US,eng,vi,vi-VN,vie,ja,ja-JP,jap,zh-[^-]*,zh-.*-en,live_chat' (flags = 4)
+[cplayer] Setting option 'ytdl-raw-options-append' = 'write-sub=' (flags = 4)
+[cplayer] Setting option 'ytdl-raw-options-append' = 'write-auto-sub=' (flags = 4)
+[cplayer] Setting option 'ytdl-raw-options-append' = 'add-metadata=' (flags = 4)
+[cplayer] Setting option 'ytdl-raw-options-append' = 'audio-multistreams=' (flags = 4)
+[cplayer] Setting option 'ytdl-raw-options-append' = 'video-multistreams=' (flags = 4)
+[cplayer] Setting option 'v' = '' (flags = 8)
+[ifo_dvdnav] Opening C:/MPV/portable_config/input.conf
+[bdmv/bluray] Opening C:/MPV/portable_config/input.conf
+[file] Opening C:/MPV/portable_config/input.conf
+[input] Parsing input config file C:/MPV/portable_config/input.conf
+[input] Unknown key 'script-binding' at C:/MPV/portable_config/input.conf:258
+[input] Input config file C:/MPV/portable_config/input.conf parsed: 165 binds
+   cplayer: mpv v0.38.0-578-ge07470ad Copyright © 2000-2024 mpv/MPlayer/mplayer2 projects
+   cplayer:  built on Jul  4 2024 23:04:24
+   cplayer: libplacebo version: v7.349.0 (v7.349.0-dirty)
+   cplayer: FFmpeg version: N-116142-ge14cdf999
+   cplayer: FFmpeg library versions:
+   cplayer:    libavcodec      61.9.100
+   cplayer:    libavdevice     61.2.100
+   cplayer:    libavfilter     10.2.102
+   cplayer:    libavformat     61.4.100
+   cplayer:    libavutil       59.28.100
+   cplayer:    libswresample   5.2.100
+   cplayer:    libswscale      8.2.100
+   cplayer:
+   cplayer: Configuration: -Ddebug=true -Db_ndebug=true -Doptimization=3 -Db_lto=true -Db_lto_mode=thin -Dlibmpv=true -Dpdf-build=enabled -Dlua=enabled -Djavascript=enabled -Dsdl2=enabled -Dlibarchive=enabled -Dlibbluray=enabled -Ddvdnav=enabled -Duchardet=enabled -Drubberband=enabled -Dlcms2=enabled -Dopenal=enabled -Dspirv-cross=enabled -Dvulkan=enabled -Dvapoursynth=enabled -Degl-angle=enabled -Dc_args=-Wno-error=int-conversion -Dprefix=/__w/mpv-winbuild/mpv-winbuild/mpv-winbuild-cmake/build64/install/x86_64-w64-mingw32 -Dlibdir=/__w/mpv-winbuild/mpv-winbuild/mpv-winbuild-cmake/build64/install/x86_64-w64-mingw32/lib -Ddefault_library=shared -Dprefer_static=True --cross-file=/__w/mpv-winbuild/mpv-winbuild/mpv-winbuild-cmake/build64/meson_cross.txt
+   cplayer: List of enabled features: build-date cplugins cuda-hwaccel cuda-interop d3d-hwaccel d3d11 d3d9-hwaccel debug direct3d dos-paths dvdnav dxgi-debug dxgi-debug-d3d11 egl-angle egl-angle-win32 ffmpeg ffnvcodec gl gl-dxinterop gl-dxinterop-d3d9 gl-win32 glob glob-win32 gpl iconv javascript jpeg lcms2 libarchive libass libavdevice libbluray libplacebo luajit openal pathcch rubberband rubberband-3 sdl2 sdl2-audio sdl2-gamepad sdl2-video shaderc spirv-cross uchardet vaapi vaapi-win32 vapoursynth vector vulkan vulkan-interop wasapi win32 win32-desktop win32-executable win32-threads zimg zimg-st428 zlib
+   cplayer: Built with NDEBUG.
+   cplayer: Cannot find main.* for any supported scripting backend in: C:/MPV/portable_config/scripts/PENDING
+ytdl_preload: Opened config file script-opts/ytdl_preload.conf.
+  streamsave: Opened config file script-opts/streamsave.conf.
+protocol_hook: Opened config file script-opts/protocol_hook.conf.
+     autocrop: Opened config file script-opts/autocrop.conf.
+     clipshot: Opened config file script-opts/clipshot.conf.
+SmartCopyPaste: Opened config file script-opts/SmartCopyPaste.conf.
+          memo: Opened config file script-opts/memo.conf.
+      clipshot: script-opts/clipshot.conf:1 unknown key 'name ', ignoring
+   vo/gpu-next: Probing for best GPU context.
+vo/gpu-next/d3d11: Initializing GPU context 'd3d11'
+          evafast: Opened config file script-opts/evafast.conf.
+         clipshot: script-opts/clipshot.conf:2 unknown key 'type ', ignoring
+     slicing_copy: Opened config file script-opts/slicing_copy.conf.
+     quality_menu: Opened config file script-opts/quality-menu.conf.
+             webm: Opened config file script-opts/webm.conf.
+  playlistmanager: Opened config file script-opts/playlistmanager.conf.
+vo/gpu-next/d3d11: Using Direct3D 11 feature level 11_1
+vo/gpu-next/d3d11: Device Name: Intel(R) Iris(TM) Graphics 5100
+vo/gpu-next/d3d11: Device ID: 8086:0a2e (rev 09)
+vo/gpu-next/d3d11: Subsystem ID: 106b:011a
+vo/gpu-next/d3d11: LUID: 0000000000008322
+        thumbfast: Opened config file script-opts/thumbfast.conf.
+vo/gpu-next/d3d11: Initializing SPIR-V compiler 'shaderc'
+vo/gpu-next/d3d11: Using Direct3D 11.1 runtime
+vo/gpu-next/d3d11: Maximum Texture2D size: 16384x16384
+vo/gpu-next/d3d11: D3DCompiler version: 10.0.22621.608
+vo/gpu-next/d3d11: Using DXGI 1.2+
+vo/gpu-next/d3d11: Queried output: \\.\DISPLAY1, 2560x1600 @ 8 bits, colorspace: RGB_FULL_G22_NONE_P709 (0)
+vo/gpu-next/d3d11: Selected swapchain format R8G8B8A8_UNORM (28), attempting to utilize it.
+vo/gpu-next/d3d11: Selected swapchain color space RGB_FULL_G22_NONE_P709 (0), attempting to utilize it.
+vo/gpu-next/d3d11: Swapchain capabilities for color space RGB_FULL_G22_NONE_P709 (0): normal: yes, overlay: no
+vo/gpu-next/d3d11: Swapchain successfully configured to color space RGB_FULL_G22_NONE_P709 (0)!
+vo/gpu-next/d3d11: Using flip-model presentation
+vo/gpu-next/libplacebo: Initialized libplacebo v7.349.0 (v7.349.0-dirty) (API v349)
+vo/gpu-next/libplacebo: Using DXGI 1.2+
+vo/gpu-next/libplacebo: Using Direct3D 11 feature level 11_1
+vo/gpu-next/libplacebo: Direct3D 11 device properties:
+vo/gpu-next/libplacebo:     Device Name: Intel(R) Iris(TM) Graphics 5100
+vo/gpu-next/libplacebo:     Device ID: 8086:0a2e (rev 09)
+vo/gpu-next/libplacebo:     Subsystem ID: 106b:011a
+vo/gpu-next/libplacebo:     LUID: 0000000000008322
+vo/gpu-next/libplacebo:     Driver version: 10.18.15.4240
+vo/gpu-next/libplacebo: shaderc SPIR-V version 1.6 rev 1
+vo/gpu-next/libplacebo: Initialized SPIR-V compiler 'shaderc'
+vo/gpu-next/libplacebo: Using Direct3D 11.4 runtime
+vo/gpu-next/libplacebo: D3DCompiler version: 10.0.22621.608
+vo/gpu-next/libplacebo: GPU information:
+vo/gpu-next/libplacebo:     GLSL version: 450 (vulkan)
+vo/gpu-next/libplacebo:       max_shmem_size:            32768
+vo/gpu-next/libplacebo:       max_group_threads:         1024
+vo/gpu-next/libplacebo:       max_group_size[0]:         1024
+vo/gpu-next/libplacebo:       max_group_size[1]:         1024
+vo/gpu-next/libplacebo:       max_group_size[2]:         64
+vo/gpu-next/libplacebo:       subgroup_size:             0
+vo/gpu-next/libplacebo:       min_gather_offset:         -32
+vo/gpu-next/libplacebo:       max_gather_offset:         31
+vo/gpu-next/libplacebo:     Limits:
+vo/gpu-next/libplacebo:       thread_safe:               0
+vo/gpu-next/libplacebo:       callbacks:                 0
+vo/gpu-next/libplacebo:       max_buf_size:              134217728
+vo/gpu-next/libplacebo:       max_ubo_size:              65536
+vo/gpu-next/libplacebo:       max_ssbo_size:             134217728
+vo/gpu-next/libplacebo:       max_vbo_size:              134217728
+vo/gpu-next/libplacebo:       max_mapped_size:           0
+vo/gpu-next/libplacebo:       max_buffer_texels:         134217728
+vo/gpu-next/libplacebo:       align_host_ptr:            0
+vo/gpu-next/libplacebo:       host_cached:               0
+vo/gpu-next/libplacebo:       max_tex_1d_dim:            16384
+vo/gpu-next/libplacebo:       max_tex_2d_dim:            16384
+vo/gpu-next/libplacebo:       max_tex_3d_dim:            2048
+vo/gpu-next/libplacebo:       blittable_1d_3d:           1
+vo/gpu-next/libplacebo:       buf_transfer:              0
+vo/gpu-next/libplacebo:       align_tex_xfer_pitch:      1
+vo/gpu-next/libplacebo:       align_tex_xfer_offset:     32
+vo/gpu-next/libplacebo:       max_variable_comps:        0
+vo/gpu-next/libplacebo:       max_constants:             0
+vo/gpu-next/libplacebo:       max_pushc_size:            0
+vo/gpu-next/libplacebo:       align_vertex_stride:       1
+vo/gpu-next/libplacebo:       max_dispatch[0]:           65535
+vo/gpu-next/libplacebo:       max_dispatch[1]:           65535
+vo/gpu-next/libplacebo:       max_dispatch[2]:           65535
+vo/gpu-next/libplacebo:       fragment_queues:           1
+vo/gpu-next/libplacebo:       compute_queues:            1
+vo/gpu-next/libplacebo: Using flip-model presentation
+vo/gpu-next/libplacebo: Initial swap chain configuration: format: R10G10B10A2_UNORM, color space: RGB_FULL_G22_NONE_P709.
+     vo/gpu-next/win32: DPI detected from the new API: 154
+     vo/gpu-next/win32: display-fps: 59.971589
+     vo/gpu-next/win32: color-profile: C:\Windows\system32\spool\drivers\color\sRGB Color Space Profile.icm
+           vo/gpu-next: Assuming 59.971589 FPS for display sync.
+           vo/gpu-next: reconfig to 960x540 yuv444p auto/auto/auto/auto/auto CL=unknown
+     vo/gpu-next/win32: reset window bounds: 1910:1133:640:380
+     vo/gpu-next/win32: resize window: 640:380
+     vo/gpu-next/win32: resize window: 640:380
+           vo/gpu-next: Window size: 640x380 (Borders: l=0 t=0 r=0 b=0)
+           vo/gpu-next: Video source: 960x540 (1:1)
+           vo/gpu-next: Video display: (0, 0) 960x540 -> (0, 10) 640x360
+           vo/gpu-next: Video scale: 0.666667/0.666667
+           vo/gpu-next: OSD borders: l=0 t=10 r=0 b=10
+           vo/gpu-next: Video borders: l=0 t=10 r=0 b=10
+vo/gpu-next/libplacebo: Attempting to reconfigure swap chain format: R8G8B8A8_UNORM -> R10G10B10A2_UNORM
+           vo/gpu-next: Window size: 640x380 (Borders: l=0 t=0 r=0 b=0)
+           vo/gpu-next: Video source: 960x540 (1:1)
+           vo/gpu-next: Video display: (0, 0) 960x540 -> (0, 10) 640x360
+           vo/gpu-next: Video scale: 0.666667/0.666667
+           vo/gpu-next: OSD borders: l=0 t=10 r=0 b=10
+           vo/gpu-next: Video borders: l=0 t=10 r=0 b=10
+               cplayer: Waiting for scripts...
+       playlistmanager: auto showamount: 24
+          ytdl_preload: No youtube-dl found with path yt-dlp.exe in config directories
+         protocol_hook:
+       playlistmanager: updating options
+                  webm: Loaded mpv-webm script!
+         protocol_hook: false
+         protocol_hook:
+         protocol_hook: C:/MPV/portable_config
+                  uosc: Opened config file script-opts/uosc.conf.
+         protocol_hook: C:/MPV
+         protocol_hook: C:/MPV
+          ytdl_preload: Found youtube-dl with path yt-dlp.exe in PATH
+         protocol_hook: { ["cwd"] = ,["ipcMode"] = true,["proxy"] = ,["nogeometry"] = true,["stream_quality"] = 720p,best,worst,}
+         auto_profiles: Re-evaluating auto profile Normalize
+            osd/libass: libass API version: 0x1703000
+            osd/libass: libass source: meson, commit: 0.17.3-0-ge46aedea0a0d17da4c4ef49d84b94a7994664ab5
+            osd/libass: Shaper: FriBidi 1.0.15 (SIMPLE) HarfBuzz-ng 9.0.0 (COMPLEX)
+            osd/libass: Setting up fonts...
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\OpenSans-Bold.ttf'
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\uosc_icons.otf'
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\uosc_textures.ttf'
+            osd/libass: Using font provider directwrite (with GDI)
+            osd/libass: Done.
+         auto_profiles: Profile condition error on evaluating: [string "profile Normalize condition"]:1: attempt to compare number with nil
+         auto_profiles: Re-evaluating auto profile interpolation-activate
+               cplayer: Done loading scripts.
+         auto_profiles: Re-evaluating auto profile stream-no-ytdl
+               cplayer: Running hook: auto_profiles/on_before_start_file
+         auto_profiles: Profile condition error on evaluating: [string "profile stream-no-ytdl condition"]:1: bad argument #1 to 'find' (string expected, got nil)
+         auto_profiles: Re-evaluating auto profile quality-youtube
+         auto_profiles: Profile condition error on evaluating: [string "profile quality-youtube condition"]:1: bad argument #1 to 'find' (string expected, got nil)
+         auto_profiles: Re-evaluating auto profile Normalize
+            osd/libass: libass API version: 0x1703000
+            osd/libass: libass source: meson, commit: 0.17.3-0-ge46aedea0a0d17da4c4ef49d84b94a7994664ab5
+         auto_profiles: Profile condition error on evaluating: [string "profile Normalize condition"]:1: attempt to compare number with nil
+            osd/libass: Shaper: FriBidi 1.0.15 (SIMPLE) HarfBuzz-ng 9.0.0 (COMPLEX)
+         auto_profiles: Re-evaluating auto profile interpolation-activate
+            osd/libass: Setting up fonts...
+         auto_profiles: Re-evaluating auto profile stream-no-ytdl
+         auto_profiles: Profile condition error on evaluating: [string "profile stream-no-ytdl condition"]:1: bad argument #1 to 'find' (string expected, got nil)
+         auto_profiles: Re-evaluating auto profile quality-youtube
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\OpenSans-Bold.ttf'
+         auto_profiles: Profile condition error on evaluating: [string "profile quality-youtube condition"]:1: bad argument #1 to 'find' (string expected, got nil)
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\uosc_icons.otf'
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\uosc_textures.ttf'
+            osd/libass: Using font provider directwrite (with GDI)
+            osd/libass: Done.
+               cplayer: Running hook: protocol_hook/on_load
+         auto_profiles: Re-evaluating auto profile stream-no-ytdl
+         protocol_hook: https://www.youtube.com/?app=desktop
+         auto_profiles: Re-evaluating auto profile quality-youtube
+            osd/libass: libass API version: 0x1703000
+            osd/libass: libass source: meson, commit: 0.17.3-0-ge46aedea0a0d17da4c4ef49d84b94a7994664ab5
+            osd/libass: Shaper: FriBidi 1.0.15 (SIMPLE) HarfBuzz-ng 9.0.0 (COMPLEX)
+            osd/libass: Setting up fonts...
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\OpenSans-Bold.ttf'
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\uosc_icons.otf'
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\uosc_textures.ttf'
+            osd/libass: Using font provider directwrite (with GDI)
+            osd/libass: Done.
+               cplayer: Set property: http-header-fields=Referer: https://www.youtube.com/?app=desktop -> 1
+         protocol_hook: run cmd /c echo loadfile mpv://play/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj10UkNja3dFWEJtaw/?referer=aHR0cHM6Ly93d3cueW91dHViZS5jb20vP2FwcD1kZXNrdG9w append-play >\\.\pipe\mpvsocket
+              autoload: stopping: manually made playlist
+               cplayer: Running hook: quality_menu/on_load
+               cplayer: Running hook: ytdl_hook/on_load
+             ytdl_hook: ytdl:// hook
+             ytdl_hook: not a ytdl:// url
+               cplayer: Running hook: ytdl_hook/on_load
+             ytdl_hook: playlist hook
+               cplayer: Running hook: auto_profiles/on_load
+       stream_callback: Opening mpv://play/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj10UkNja3dFWEJtaw/?referer=aHR0cHM6Ly93d3cueW91dHViZS5jb20vP2FwcD1kZXNrdG9w
+                stream: No protocol handler found to open URL mpv://play/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj10UkNja3dFWEJtaw/?referer=aHR0cHM6Ly93d3cueW91dHViZS5jb20vP2FwcD1kZXNrdG9w
+                stream: The protocol is either unsupported, or was disabled at compile-time.
+               cplayer: Opening failed or was aborted: mpv://play/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj10UkNja3dFWEJtaw/?referer=aHR0cHM6Ly93d3cueW91dHViZS5jb20vP2FwcD1kZXNrdG9w
+               cplayer: Running hook: ytdl_hook/on_load_fail
+             ytdl_hook: full hook
+               cplayer: Running hook: ytdl_preload/on_unload
+               cplayer: finished playback, loading failed (reason 4)
+               cplayer: Exiting... (Errors when loading file)
+          ytdl_preload: clear
+     vo/gpu-next/win32: uninit
+
+C:\MPV>mpv.exe mpv://play/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj10UkNja3dFWEJtaw/?referer=aHR0cHM6Ly93d3cueW91dHViZS5jb20vP2FwcD1kZXNrdG9w
+
+C:\MPV>mpv.exe mpv://play/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj10UkNja3dFWEJtaw/?referer=aHR0cHM6Ly93d3cueW91dHViZS5jb20vP2FwcD1kZXNrdG9w -v
+
+C:\MPV>mpv mpv://play/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj10UkNja3dFWEJtaw/?referer=aHR0cHM6Ly93d3cueW91dHViZS5jb20vP2FwcD1kZXNrdG9w -v
+[cplayer] Command line options: 'mpv://play/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj10UkNja3dFWEJtaw/?referer=aHR0cHM6Ly93d3cueW91dHViZS5jb20vP2FwcD1kZXNrdG9w' '-v'
+[cplayer] mpv v0.38.0-578-ge07470ad Copyright © 2000-2024 mpv/MPlayer/mplayer2 projects
+[cplayer]  built on Jul  4 2024 23:04:24
+[cplayer] libplacebo version: v7.349.0 (v7.349.0-dirty)
+[cplayer] FFmpeg version: N-116142-ge14cdf999
+[cplayer] FFmpeg library versions:
+[cplayer]    libavcodec      61.9.100
+[cplayer]    libavdevice     61.2.100
+[cplayer]    libavfilter     10.2.102
+[cplayer]    libavformat     61.4.100
+[cplayer]    libavutil       59.28.100
+[cplayer]    libswresample   5.2.100
+[cplayer]    libswscale      8.2.100
+[cplayer]
+[cplayer] Configuration: -Ddebug=true -Db_ndebug=true -Doptimization=3 -Db_lto=true -Db_lto_mode=thin -Dlibmpv=true -Dpdf-build=enabled -Dlua=enabled -Djavascript=enabled -Dsdl2=enabled -Dlibarchive=enabled -Dlibbluray=enabled -Ddvdnav=enabled -Duchardet=enabled -Drubberband=enabled -Dlcms2=enabled -Dopenal=enabled -Dspirv-cross=enabled -Dvulkan=enabled -Dvapoursynth=enabled -Degl-angle=enabled -Dc_args=-Wno-error=int-conversion -Dprefix=/__w/mpv-winbuild/mpv-winbuild/mpv-winbuild-cmake/build64/install/x86_64-w64-mingw32 -Dlibdir=/__w/mpv-winbuild/mpv-winbuild/mpv-winbuild-cmake/build64/install/x86_64-w64-mingw32/lib -Ddefault_library=shared -Dprefer_static=True --cross-file=/__w/mpv-winbuild/mpv-winbuild/mpv-winbuild-cmake/build64/meson_cross.txt
+[cplayer] List of enabled features: build-date cplugins cuda-hwaccel cuda-interop d3d-hwaccel d3d11 d3d9-hwaccel debug direct3d dos-paths dvdnav dxgi-debug dxgi-debug-d3d11 egl-angle egl-angle-win32 ffmpeg ffnvcodec gl gl-dxinterop gl-dxinterop-d3d9 gl-win32 glob glob-win32 gpl iconv javascript jpeg lcms2 libarchive libass libavdevice libbluray libplacebo luajit openal pathcch rubberband rubberband-3 sdl2 sdl2-audio sdl2-gamepad sdl2-video shaderc spirv-cross uchardet vaapi vaapi-win32 vapoursynth vector vulkan vulkan-interop wasapi win32 win32-desktop win32-executable win32-threads zimg zimg-st428 zlib
+[cplayer] Built with NDEBUG.
+[cplayer] Reading config file C:/MPV/portable_config/mpv.conf
+[ifo_dvdnav] Opening C:/MPV/portable_config/mpv.conf
+[bdmv/bluray] Opening C:/MPV/portable_config/mpv.conf
+[file] Opening C:/MPV/portable_config/mpv.conf
+[cplayer] Error parsing option d3d11va (option not found)
+[cplayer] C:/MPV/portable_config/mpv.conf:26: setting option d3d11va='yes' failed.
+[cplayer] Option gpu-context: this option does not accept sub-options.
+[cplayer] Sub-options for --vo and --ao were removed from mpv in release 0.23.0.
+[cplayer] See https://0x0.st/uM for details.
+[cplayer] Error parsing option gpu-context (option parameter could not be parsed)
+[cplayer] C:/MPV/portable_config/mpv.conf:31: setting option gpu-context='d3d11:adapter=0' failed.
+[cplayer] Error parsing option screenshot-jpg-compression (option not found)
+[cplayer] C:/MPV/portable_config/mpv.conf:116: setting option screenshot-jpg-compression='9' failed.
+[cplayer] Option --focus-on-open was removed: Replaced by --focus-on
+[cplayer] Error parsing option no-focus-on-open (option not found)
+[cplayer] C:/MPV/portable_config/mpv.conf:151: setting option no-focus-on-open='' failed.
+[cplayer] Error parsing option cache-backbuffer (option not found)
+[cplayer] C:/MPV/portable_config/mpv.conf:220: setting option cache-backbuffer='500000' failed.
+[cplayer] Error parsing option cache-initial (option not found)
+[cplayer] C:/MPV/portable_config/mpv.conf:221: setting option cache-initial='0' failed.
+[cplayer] Applying profile 'default'...
+[cplayer] Setting option 'include' = '~~/profiles.conf' (flags = 4)
+[cplayer] Reading config file C:/MPV/portable_config/profiles.conf
+[ifo_dvdnav] Opening C:/MPV/portable_config/profiles.conf
+[bdmv/bluray] Opening C:/MPV/portable_config/profiles.conf
+[file] Opening C:/MPV/portable_config/profiles.conf
+[cplayer] Setting option 'geometry' = '50%:50%' (flags = 4)
+[cplayer] Setting option 'autofit-larger' = '80%x80%' (flags = 4)
+[cplayer] Setting option 'prefetch-playlist' = 'yes' (flags = 4)
+[cplayer] Setting option 'force-seekable' = 'yes' (flags = 4)
+[cplayer] Setting option 'keep-open' = 'yes' (flags = 4)
+[cplayer] Setting option 'reset-on-next-file' = 'pause' (flags = 4)
+[cplayer] Setting option 'msg-color' = 'yes' (flags = 4)
+[cplayer] Setting option 'msg-module' = 'yes' (flags = 4)
+[cplayer] Setting option 'image-display-duration' = 'inf' (flags = 4)
+[cplayer] Setting option 'hr-seek' = 'yes' (flags = 4)
+[cplayer] Setting option 'vd-lavc-fast' = 'yes' (flags = 4)
+[cplayer] Setting option 'log-file' = '~~desktop/mpv-log.txt' (flags = 4)
+[cplayer] Setting option 'vo' = 'gpu-next' (flags = 4)
+[cplayer] Setting option 'hwdec' = 'auto-safe' (flags = 4)
+[cplayer] Setting option 'profile' = 'Balanced' (flags = 4)
+[cplayer] Applying profile 'Balanced'...
+[cplayer] Setting option 'glsl-shaders-clr' = '' (flags = 4)
+[cplayer] Setting option 'scale' = 'lanczos' (flags = 4)
+[cplayer] Setting option 'cscale' = 'catmull_rom' (flags = 4)
+[cplayer] Setting option 'libplacebo-opts' = 'downscaler=custom,downscaler_preset=hermite,downscaler_polar=true,downscaler_antiring=0' (flags = 4)
+[cplayer] Setting option 'correct-downscaling' = 'yes' (flags = 4)
+[cplayer] Setting option 'linear-downscaling' = 'yes' (flags = 4)
+[cplayer] Setting option 'sigmoid-upscaling' = 'yes' (flags = 4)
+[cplayer] Setting option 'hdr-compute-peak' = 'yes' (flags = 4)
+[cplayer] Setting option 'hdr-peak-percentile' = '100' (flags = 4)
+[cplayer] Setting option 'hdr-contrast-recovery' = '0.0' (flags = 4)
+[cplayer] Setting option 'allow-delayed-peak-detect' = 'no' (flags = 4)
+[cplayer] Setting option 'dither-depth' = 'auto' (flags = 4)
+[cplayer] Setting option 'gpu-api' = 'd3d11' (flags = 4)
+[cplayer] Setting option 'hwdec' = 'd3d11va' (flags = 4)
+[cplayer] Setting option 'd3d11va-zero-copy' = 'yes' (flags = 4)
+[cplayer] Setting option 'cache' = 'auto' (flags = 4)
+[cplayer] Setting option 'demuxer-max-bytes' = '1GiB' (flags = 4)
+[cplayer] Setting option 'demuxer-readahead-secs' = '300' (flags = 4)
+[cplayer] Setting option 'demuxer-max-back-bytes' = '500MiB' (flags = 4)
+[cplayer] Setting option 'ytdl-format' = 'bestvideo+bestaudio/best' (flags = 4)
+[cplayer] Setting option 'load-unsafe-playlists' = 'yes' (flags = 4)
+[cplayer] Setting option 'ytdl-raw-options' = 'write-thumbnail=,sub-lang="vi,vi-vi,en,en-en"' (flags = 4)
+[cplayer] Setting option 'deband' = 'no' (flags = 4)
+[cplayer] Setting option 'deband-iterations' = '1' (flags = 4)
+[cplayer] Setting option 'deband-threshold' = '48' (flags = 4)
+[cplayer] Setting option 'deband-range' = '32' (flags = 4)
+[cplayer] Setting option 'deband-grain' = '32' (flags = 4)
+[cplayer] Setting option 'osd-bar' = 'no' (flags = 4)
+[cplayer] Setting option 'osc' = 'no' (flags = 4)
+[cplayer] Setting option 'border' = 'no' (flags = 4)
+[cplayer] Setting option 'cursor-autohide' = '100' (flags = 4)
+[cplayer] Setting option 'osd-level' = '1' (flags = 4)
+[cplayer] Setting option 'osd-duration' = '1000' (flags = 4)
+[cplayer] Setting option 'osd-font' = 'Open Sans' (flags = 4)
+[cplayer] Setting option 'osd-font-size' = '40' (flags = 4)
+[cplayer] Setting option 'osd-border-size' = '2.4' (flags = 4)
+[cplayer] Setting option 'osd-shadow-offset' = '0.75' (flags = 4)
+[cplayer] Setting option 'osd-bold' = 'yes' (flags = 4)
+[cplayer] Setting option 'track-auto-selection' = 'yes' (flags = 4)
+[cplayer] Setting option 'alang' = 'en,eng,ja,jp,jpn,vi,vie,en,eng' (flags = 4)
+[cplayer] Setting option 'slang' = 'vi,vie' (flags = 4)
+[cplayer] Setting option 'volume' = '100' (flags = 4)
+[cplayer] Setting option 'audio-file-auto' = 'fuzzy' (flags = 4)
+[cplayer] Setting option 'volume-max' = '200' (flags = 4)
+[cplayer] Setting option 'audio-pitch-correction' = 'yes' (flags = 4)
+[cplayer] Setting option 'demuxer-mkv-subtitle-preroll' = 'yes' (flags = 4)
+[cplayer] Setting option 'sub-ass-vsfilter-blur-compat' = 'no' (flags = 4)
+[cplayer] Setting option 'sub-fix-timing' = 'no' (flags = 4)
+[cplayer] Setting option 'sub-auto' = 'fuzzy' (flags = 4)
+[cplayer] Setting option 'sub-file-paths-append' = 'ass' (flags = 4)
+[cplayer] Setting option 'sub-file-paths-append' = 'srt' (flags = 4)
+[cplayer] Setting option 'sub-file-paths-append' = 'pgs' (flags = 4)
+[cplayer] Setting option 'sub-file-paths-append' = 'vob' (flags = 4)
+[cplayer] Setting option 'sub-file-paths-append' = 'sub' (flags = 4)
+[cplayer] Setting option 'sub-file-paths-append' = 'sup' (flags = 4)
+[cplayer] Setting option 'sub-file-paths-append' = 'subs' (flags = 4)
+[cplayer] Setting option 'sub-file-paths-append' = 'subtitles' (flags = 4)
+[cplayer] Setting option 'sub-font' = 'Open Sans' (flags = 4)
+[cplayer] Setting option 'sub-font-size' = '40' (flags = 4)
+[cplayer] Setting option 'sub-color' = '#FFFFFFFF' (flags = 4)
+[cplayer] Setting option 'sub-border-color' = '#FF000000' (flags = 4)
+[cplayer] Setting option 'sub-shadow-color' = '0.0/0.0/0.0/0.70' (flags = 4)
+[cplayer] Setting option 'sub-border-size' = '2.0' (flags = 4)
+[cplayer] Setting option 'sub-shadow-offset' = '0.75' (flags = 4)
+[cplayer] Setting option 'sub-spacing' = '0.0' (flags = 4)
+[cplayer] Setting option 'sub-bold' = 'yes' (flags = 4)
+[cplayer] Setting option 'sub-use-margins' = 'no' (flags = 4)
+[cplayer] Setting option 'sub-gauss' = '0.05' (flags = 4)
+[cplayer] Setting option 'screenshot-format' = 'jpg' (flags = 4)
+[cplayer] Setting option 'screenshot-high-bit-depth' = 'no' (flags = 4)
+[cplayer] Setting option 'screenshot-tag-colorspace' = 'no' (flags = 4)
+[cplayer] Setting option 'screenshot-png-compression' = '9' (flags = 4)
+[cplayer] Setting option 'screenshot-dir' = '~/Pictures/mpv' (flags = 4)
+[cplayer] Setting option 'screenshot-template' = '%{?demuxer-via-network==yes:${media-title}%{?demuxer-via-network==yes:_${filename/no-ext}%{!demuxer-via-network==yes:${filename}-%wH.%wM.%wS.%wT-#%#00n' (flags = 4)
+[cplayer] Setting option 'tscale' = 'oversample' (flags = 4)
+[cplayer] Setting option 'target-colorspace-hint' = 'no' (flags = 4)
+[cplayer] Setting option 'tone-mapping' = 'spline' (flags = 4)
+[cplayer] Setting option 'libplacebo-opts-append' = 'gamut_expansion=yes' (flags = 4)
+[cplayer] Setting option 'libplacebo-opts-append' = 'perceptual_deadzone=0.4' (flags = 4)
+[cplayer] Setting option 'libplacebo-opts-append' = 'perceptual_strength=0.5' (flags = 4)
+[cplayer] Setting option 'ontop' = '' (flags = 4)
+[cplayer] Setting option 'osd-on-seek' = 'no' (flags = 4)
+[cplayer] Setting option 'osd-font-size' = '24' (flags = 4)
+[cplayer] Setting option 'keep-open' = 'yes' (flags = 4)
+[cplayer] Setting option 'force-window' = 'immediate' (flags = 4)
+[cplayer] Setting option 'geometry' = '25%x25%-10-10' (flags = 4)
+[cplayer] Setting option 'load-unsafe-playlists' = 'yes' (flags = 4)
+[cplayer] Setting option 'user-agent' = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/127.0' (flags = 4)
+[cplayer] Setting option 'force-seekable' = 'yes' (flags = 4)
+[cplayer] Setting option 'hr-seek' = 'yes' (flags = 4)
+[cplayer] Setting option 'hr-seek-framedrop' = 'yes' (flags = 4)
+[cplayer] Setting option 'osc' = 'no' (flags = 4)
+[cplayer] Setting option 'osd-bar' = 'no' (flags = 4)
+[cplayer] Setting option 'hwdec' = 'auto-safe' (flags = 4)
+[cplayer] Setting option 'vo' = 'gpu-next' (flags = 4)
+[cplayer] Setting option 'tscale' = 'nearest' (flags = 4)
+[cplayer] Setting option 'interpolation' = 'no' (flags = 4)
+[cplayer] Setting option 'scale' = 'bilinear' (flags = 4)
+[cplayer] Setting option 'cscale' = 'bilinear' (flags = 4)
+[cplayer] Setting option 'dscale' = 'bilinear' (flags = 4)
+[cplayer] Setting option 'sws-scaler' = 'fast-bilinear' (flags = 4)
+[cplayer] Setting option 'dither' = 'no' (flags = 4)
+[cplayer] Setting option 'correct-downscaling' = 'no' (flags = 4)
+[cplayer] Setting option 'linear-downscaling' = 'no' (flags = 4)
+[cplayer] Setting option 'sigmoid-upscaling' = 'no' (flags = 4)
+[cplayer] Setting option 'hdr-compute-peak' = 'no' (flags = 4)
+[cplayer] Setting option 'volume-max' = '200' (flags = 4)
+[cplayer] Setting option 'volume' = '100' (flags = 4)
+[cplayer] Setting option 'cache-pause' = '' (flags = 4)
+[cplayer] Setting option 'cache' = 'yes' (flags = 4)
+[cplayer] Setting option 'cache-secs' = '1000' (flags = 4)
+[cplayer] Setting option 'demuxer-thread' = 'yes' (flags = 4)
+[cplayer] Setting option 'demuxer-max-back-bytes' = '50MiB' (flags = 4)
+[cplayer] Setting option 'demuxer-readahead-secs' = '600' (flags = 4)
+[cplayer] Setting option 'network-timeout' = '100' (flags = 4)
+[cplayer] Setting option 'stream-lavf-o-append' = 'reconnect_on_http_error=4xx,5xx' (flags = 4)
+[cplayer] Setting option 'stream-lavf-o-append' = 'reconnect_delay_max=30' (flags = 4)
+[cplayer] Setting option 'stream-lavf-o-append' = 'reconnect_streamed=yes' (flags = 4)
+[cplayer] Setting option 'ytdl-raw-options-append' = 'no-check-certificates=' (flags = 4)
+[cplayer] Setting option 'ytdl-raw-options-append' = 'yes-playlist=' (flags = 4)
+[cplayer] Setting option 'ytdl-raw-options-append' = 'sub-langs=en,en-US,eng,vi,vi-VN,vie,ja,ja-JP,jap,zh-[^-]*,zh-.*-en,live_chat' (flags = 4)
+[cplayer] Setting option 'ytdl-raw-options-append' = 'write-sub=' (flags = 4)
+[cplayer] Setting option 'ytdl-raw-options-append' = 'write-auto-sub=' (flags = 4)
+[cplayer] Setting option 'ytdl-raw-options-append' = 'add-metadata=' (flags = 4)
+[cplayer] Setting option 'ytdl-raw-options-append' = 'audio-multistreams=' (flags = 4)
+[cplayer] Setting option 'ytdl-raw-options-append' = 'video-multistreams=' (flags = 4)
+[cplayer] Setting option 'v' = '' (flags = 8)
+[ifo_dvdnav] Opening C:/MPV/portable_config/input.conf
+[bdmv/bluray] Opening C:/MPV/portable_config/input.conf
+[file] Opening C:/MPV/portable_config/input.conf
+[input] Parsing input config file C:/MPV/portable_config/input.conf
+[input] Unknown key 'script-binding' at C:/MPV/portable_config/input.conf:258
+[input] Input config file C:/MPV/portable_config/input.conf parsed: 165 binds
+   cplayer: mpv v0.38.0-578-ge07470ad Copyright © 2000-2024 mpv/MPlayer/mplayer2 projects
+   cplayer:  built on Jul  4 2024 23:04:24
+   cplayer: libplacebo version: v7.349.0 (v7.349.0-dirty)
+   cplayer: FFmpeg version: N-116142-ge14cdf999
+   cplayer: FFmpeg library versions:
+   cplayer:    libavcodec      61.9.100
+   cplayer:    libavdevice     61.2.100
+   cplayer:    libavfilter     10.2.102
+   cplayer:    libavformat     61.4.100
+   cplayer:    libavutil       59.28.100
+   cplayer:    libswresample   5.2.100
+   cplayer:    libswscale      8.2.100
+   cplayer:
+   cplayer: Configuration: -Ddebug=true -Db_ndebug=true -Doptimization=3 -Db_lto=true -Db_lto_mode=thin -Dlibmpv=true -Dpdf-build=enabled -Dlua=enabled -Djavascript=enabled -Dsdl2=enabled -Dlibarchive=enabled -Dlibbluray=enabled -Ddvdnav=enabled -Duchardet=enabled -Drubberband=enabled -Dlcms2=enabled -Dopenal=enabled -Dspirv-cross=enabled -Dvulkan=enabled -Dvapoursynth=enabled -Degl-angle=enabled -Dc_args=-Wno-error=int-conversion -Dprefix=/__w/mpv-winbuild/mpv-winbuild/mpv-winbuild-cmake/build64/install/x86_64-w64-mingw32 -Dlibdir=/__w/mpv-winbuild/mpv-winbuild/mpv-winbuild-cmake/build64/install/x86_64-w64-mingw32/lib -Ddefault_library=shared -Dprefer_static=True --cross-file=/__w/mpv-winbuild/mpv-winbuild/mpv-winbuild-cmake/build64/meson_cross.txt
+   cplayer: List of enabled features: build-date cplugins cuda-hwaccel cuda-interop d3d-hwaccel d3d11 d3d9-hwaccel debug direct3d dos-paths dvdnav dxgi-debug dxgi-debug-d3d11 egl-angle egl-angle-win32 ffmpeg ffnvcodec gl gl-dxinterop gl-dxinterop-d3d9 gl-win32 glob glob-win32 gpl iconv javascript jpeg lcms2 libarchive libass libavdevice libbluray libplacebo luajit openal pathcch rubberband rubberband-3 sdl2 sdl2-audio sdl2-gamepad sdl2-video shaderc spirv-cross uchardet vaapi vaapi-win32 vapoursynth vector vulkan vulkan-interop wasapi win32 win32-desktop win32-executable win32-threads zimg zimg-st428 zlib
+   cplayer: Built with NDEBUG.
+   cplayer: Cannot find main.* for any supported scripting backend in: C:/MPV/portable_config/scripts/ytproxy
+   cplayer: Cannot find main.* for any supported scripting backend in: C:/MPV/portable_config/scripts/PENDING
+   evafast: Opened config file script-opts/evafast.conf.
+  clipshot: Opened config file script-opts/clipshot.conf.
+  clipshot: script-opts/clipshot.conf:1 unknown key 'name ', ignoring
+  clipshot: script-opts/clipshot.conf:2 unknown key 'type ', ignoring
+streamsave: Opened config file script-opts/streamsave.conf.
+protocol_hook: Opened config file script-opts/protocol_hook.conf.
+ ytdl_preload: Opened config file script-opts/ytdl_preload.conf.
+ quality_menu: Opened config file script-opts/quality-menu.conf.
+SmartCopyPaste: Opened config file script-opts/SmartCopyPaste.conf.
+          memo: Opened config file script-opts/memo.conf.
+  slicing_copy: Opened config file script-opts/slicing_copy.conf.
+     thumbfast: Opened config file script-opts/thumbfast.conf.
+   vo/gpu-next: Probing for best GPU context.
+vo/gpu-next/d3d11: Initializing GPU context 'd3d11'
+         autocrop: Opened config file script-opts/autocrop.conf.
+             webm: Opened config file script-opts/webm.conf.
+  playlistmanager: Opened config file script-opts/playlistmanager.conf.
+vo/gpu-next/d3d11: Using Direct3D 11 feature level 11_1
+vo/gpu-next/d3d11: Device Name: Intel(R) Iris(TM) Graphics 5100
+vo/gpu-next/d3d11: Device ID: 8086:0a2e (rev 09)
+vo/gpu-next/d3d11: Subsystem ID: 106b:011a
+vo/gpu-next/d3d11: LUID: 0000000000008322
+vo/gpu-next/d3d11: Initializing SPIR-V compiler 'shaderc'
+vo/gpu-next/d3d11: Using Direct3D 11.1 runtime
+vo/gpu-next/d3d11: Maximum Texture2D size: 16384x16384
+vo/gpu-next/d3d11: D3DCompiler version: 10.0.22621.608
+vo/gpu-next/d3d11: Using DXGI 1.2+
+vo/gpu-next/d3d11: Queried output: \\.\DISPLAY1, 2560x1600 @ 8 bits, colorspace: RGB_FULL_G22_NONE_P709 (0)
+vo/gpu-next/d3d11: Selected swapchain format R8G8B8A8_UNORM (28), attempting to utilize it.
+vo/gpu-next/d3d11: Selected swapchain color space RGB_FULL_G22_NONE_P709 (0), attempting to utilize it.
+vo/gpu-next/d3d11: Swapchain capabilities for color space RGB_FULL_G22_NONE_P709 (0): normal: yes, overlay: no
+vo/gpu-next/d3d11: Swapchain successfully configured to color space RGB_FULL_G22_NONE_P709 (0)!
+vo/gpu-next/d3d11: Using flip-model presentation
+vo/gpu-next/libplacebo: Initialized libplacebo v7.349.0 (v7.349.0-dirty) (API v349)
+vo/gpu-next/libplacebo: Using DXGI 1.2+
+vo/gpu-next/libplacebo: Using Direct3D 11 feature level 11_1
+vo/gpu-next/libplacebo: Direct3D 11 device properties:
+vo/gpu-next/libplacebo:     Device Name: Intel(R) Iris(TM) Graphics 5100
+vo/gpu-next/libplacebo:     Device ID: 8086:0a2e (rev 09)
+vo/gpu-next/libplacebo:     Subsystem ID: 106b:011a
+vo/gpu-next/libplacebo:     LUID: 0000000000008322
+vo/gpu-next/libplacebo:     Driver version: 10.18.15.4240
+vo/gpu-next/libplacebo: shaderc SPIR-V version 1.6 rev 1
+vo/gpu-next/libplacebo: Initialized SPIR-V compiler 'shaderc'
+vo/gpu-next/libplacebo: Using Direct3D 11.4 runtime
+vo/gpu-next/libplacebo: D3DCompiler version: 10.0.22621.608
+vo/gpu-next/libplacebo: GPU information:
+vo/gpu-next/libplacebo:     GLSL version: 450 (vulkan)
+vo/gpu-next/libplacebo:       max_shmem_size:            32768
+vo/gpu-next/libplacebo:       max_group_threads:         1024
+vo/gpu-next/libplacebo:       max_group_size[0]:         1024
+vo/gpu-next/libplacebo:       max_group_size[1]:         1024
+vo/gpu-next/libplacebo:       max_group_size[2]:         64
+vo/gpu-next/libplacebo:       subgroup_size:             0
+vo/gpu-next/libplacebo:       min_gather_offset:         -32
+vo/gpu-next/libplacebo:       max_gather_offset:         31
+vo/gpu-next/libplacebo:     Limits:
+vo/gpu-next/libplacebo:       thread_safe:               0
+vo/gpu-next/libplacebo:       callbacks:                 0
+vo/gpu-next/libplacebo:       max_buf_size:              134217728
+vo/gpu-next/libplacebo:       max_ubo_size:              65536
+vo/gpu-next/libplacebo:       max_ssbo_size:             134217728
+vo/gpu-next/libplacebo:       max_vbo_size:              134217728
+vo/gpu-next/libplacebo:       max_mapped_size:           0
+vo/gpu-next/libplacebo:       max_buffer_texels:         134217728
+vo/gpu-next/libplacebo:       align_host_ptr:            0
+vo/gpu-next/libplacebo:       host_cached:               0
+vo/gpu-next/libplacebo:       max_tex_1d_dim:            16384
+vo/gpu-next/libplacebo:       max_tex_2d_dim:            16384
+vo/gpu-next/libplacebo:       max_tex_3d_dim:            2048
+vo/gpu-next/libplacebo:       blittable_1d_3d:           1
+vo/gpu-next/libplacebo:       buf_transfer:              0
+vo/gpu-next/libplacebo:       align_tex_xfer_pitch:      1
+vo/gpu-next/libplacebo:       align_tex_xfer_offset:     32
+vo/gpu-next/libplacebo:       max_variable_comps:        0
+vo/gpu-next/libplacebo:       max_constants:             0
+vo/gpu-next/libplacebo:       max_pushc_size:            0
+vo/gpu-next/libplacebo:       align_vertex_stride:       1
+vo/gpu-next/libplacebo:       max_dispatch[0]:           65535
+vo/gpu-next/libplacebo:       max_dispatch[1]:           65535
+vo/gpu-next/libplacebo:       max_dispatch[2]:           65535
+vo/gpu-next/libplacebo:       fragment_queues:           1
+vo/gpu-next/libplacebo:       compute_queues:            1
+vo/gpu-next/libplacebo: Using flip-model presentation
+vo/gpu-next/libplacebo: Initial swap chain configuration: format: R10G10B10A2_UNORM, color space: RGB_FULL_G22_NONE_P709.
+     vo/gpu-next/win32: DPI detected from the new API: 154
+     vo/gpu-next/win32: display-fps: 59.971589
+     vo/gpu-next/win32: color-profile: C:\Windows\system32\spool\drivers\color\sRGB Color Space Profile.icm
+           vo/gpu-next: Assuming 59.971589 FPS for display sync.
+           vo/gpu-next: reconfig to 960x540 yuv444p auto/auto/auto/auto/auto CL=unknown
+     vo/gpu-next/win32: reset window bounds: 1910:1133:640:380
+     vo/gpu-next/win32: resize window: 640:380
+     vo/gpu-next/win32: resize window: 640:380
+           vo/gpu-next: Window size: 640x380 (Borders: l=0 t=0 r=0 b=0)
+           vo/gpu-next: Video source: 960x540 (1:1)
+           vo/gpu-next: Video display: (0, 0) 960x540 -> (0, 10) 640x360
+           vo/gpu-next: Video scale: 0.666667/0.666667
+           vo/gpu-next: OSD borders: l=0 t=10 r=0 b=10
+           vo/gpu-next: Video borders: l=0 t=10 r=0 b=10
+vo/gpu-next/libplacebo: Attempting to reconfigure swap chain format: R8G8B8A8_UNORM -> R10G10B10A2_UNORM
+           vo/gpu-next: Window size: 640x380 (Borders: l=0 t=0 r=0 b=0)
+           vo/gpu-next: Video source: 960x540 (1:1)
+           vo/gpu-next: Video display: (0, 0) 960x540 -> (0, 10) 640x360
+           vo/gpu-next: Video scale: 0.666667/0.666667
+           vo/gpu-next: OSD borders: l=0 t=10 r=0 b=10
+           vo/gpu-next: Video borders: l=0 t=10 r=0 b=10
+               cplayer: Waiting for scripts...
+                  webm: Loaded mpv-webm script!
+          ytdl_preload: No youtube-dl found with path yt-dlp.exe in config directories
+       playlistmanager: auto showamount: 24
+       playlistmanager: updating options
+                  uosc: Opened config file script-opts/uosc.conf.
+         protocol_hook:
+         auto_profiles: Re-evaluating auto profile Normalize
+         protocol_hook: false
+         protocol_hook:
+          ytdl_preload: Found youtube-dl with path yt-dlp.exe in PATH
+            osd/libass: libass API version: 0x1703000
+         auto_profiles: Profile condition error on evaluating: [string "profile Normalize condition"]:1: attempt to compare number with nil
+            osd/libass: libass source: meson, commit: 0.17.3-0-ge46aedea0a0d17da4c4ef49d84b94a7994664ab5
+         auto_profiles: Re-evaluating auto profile interpolation-activate
+            osd/libass: Shaper: FriBidi 1.0.15 (SIMPLE) HarfBuzz-ng 9.0.0 (COMPLEX)
+            osd/libass: Setting up fonts...
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\OpenSans-Bold.ttf'
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\uosc_icons.otf'
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\uosc_textures.ttf'
+            osd/libass: Using font provider directwrite (with GDI)
+            osd/libass: Done.
+         protocol_hook: C:/MPV/portable_config
+         auto_profiles: Re-evaluating auto profile stream-no-ytdl
+         protocol_hook: C:/MPV
+         protocol_hook: C:/MPV
+         protocol_hook: { ["cwd"] = ,["ipcMode"] = true,["proxy"] = ,["nogeometry"] = true,["stream_quality"] = 720p,best,worst,}
+         auto_profiles: Profile condition error on evaluating: [string "profile stream-no-ytdl condition"]:1: bad argument #1 to 'find' (string expected, got nil)
+         auto_profiles: Re-evaluating auto profile quality-youtube
+         auto_profiles: Profile condition error on evaluating: [string "profile quality-youtube condition"]:1: bad argument #1 to 'find' (string expected, got nil)
+         auto_profiles: Re-evaluating auto profile Normalize
+         auto_profiles: Profile condition error on evaluating: [string "profile Normalize condition"]:1: attempt to compare number with nil
+         auto_profiles: Re-evaluating auto profile interpolation-activate
+               cplayer: Done loading scripts.
+         auto_profiles: Re-evaluating auto profile stream-no-ytdl
+               cplayer: Running hook: auto_profiles/on_before_start_file
+         auto_profiles: Profile condition error on evaluating: [string "profile stream-no-ytdl condition"]:1: bad argument #1 to 'find' (string expected, got nil)
+         auto_profiles: Re-evaluating auto profile quality-youtube
+         auto_profiles: Profile condition error on evaluating: [string "profile quality-youtube condition"]:1: bad argument #1 to 'find' (string expected, got nil)
+               cplayer: Running hook: protocol_hook/on_load
+         auto_profiles: Re-evaluating auto profile stream-no-ytdl
+         auto_profiles: Re-evaluating auto profile quality-youtube
+         protocol_hook: https://www.youtube.com/?app=desktop
+            osd/libass: libass API version: 0x1703000
+            osd/libass: libass source: meson, commit: 0.17.3-0-ge46aedea0a0d17da4c4ef49d84b94a7994664ab5
+            osd/libass: Shaper: FriBidi 1.0.15 (SIMPLE) HarfBuzz-ng 9.0.0 (COMPLEX)
+            osd/libass: Setting up fonts...
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\OpenSans-Bold.ttf'
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\uosc_icons.otf'
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\uosc_textures.ttf'
+            osd/libass: Using font provider directwrite (with GDI)
+            osd/libass: Done.
+               cplayer: Set property: http-header-fields=Referer: https://www.youtube.com/?app=desktop -> 1
+               cplayer: Running hook: quality_menu/on_load
+               cplayer: Running hook: ytdl_hook/on_load
+             ytdl_hook: ytdl:// hook
+              autoload: stopping: manually made playlist
+             ytdl_hook: not a ytdl:// url
+               cplayer: Running hook: ytdl_hook/on_load
+            osd/libass: libass API version: 0x1703000
+            osd/libass: libass source: meson, commit: 0.17.3-0-ge46aedea0a0d17da4c4ef49d84b94a7994664ab5
+             ytdl_hook: playlist hook
+            osd/libass: Shaper: FriBidi 1.0.15 (SIMPLE) HarfBuzz-ng 9.0.0 (COMPLEX)
+            osd/libass: Setting up fonts...
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\OpenSans-Bold.ttf'
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\uosc_icons.otf'
+            osd/libass: Loading font file 'C:/MPV/portable_config/fonts\uosc_textures.ttf'
+            osd/libass: Using font provider directwrite (with GDI)
+            osd/libass: Done.
+               cplayer: Running hook: auto_profiles/on_load
+The system cannot find the file specified.
+       stream_callback: Opening mpv://play/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj10UkNja3dFWEJtaw/?referer=aHR0cHM6Ly93d3cueW91dHViZS5jb20vP2FwcD1kZXNrdG9w
+                stream: No protocol handler found to open URL mpv://play/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj10UkNja3dFWEJtaw/?referer=aHR0cHM6Ly93d3cueW91dHViZS5jb20vP2FwcD1kZXNrdG9w
+                stream: The protocol is either unsupported, or was disabled at compile-time.
+               cplayer: Opening failed or was aborted: mpv://play/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj10UkNja3dFWEJtaw/?referer=aHR0cHM6Ly93d3cueW91dHViZS5jb20vP2FwcD1kZXNrdG9w
+               cplayer: Running hook: ytdl_hook/on_load_fail
+             ytdl_hook: full hook
+               cplayer: Running hook: ytdl_preload/on_unload
+               cplayer: finished playback, loading failed (reason 4)
+               cplayer: Exiting... (Errors when loading file)
+          ytdl_preload: clear
+     vo/gpu-next/win32: uninit
+
+C:\MPV>
