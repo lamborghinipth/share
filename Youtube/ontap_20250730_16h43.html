@@ -1,0 +1,342 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* CSS cho các kết quả in ra */
+        .correct {
+            color: green; /* Màu xanh lá cho kết quả Đúng */
+        }
+
+        .incorrect {
+            color: red; /* Màu đỏ cho kết quả Sai */
+        }
+
+        .partial {
+            color: blue; /* Màu xanh dương cho kết quả Khớp */
+        }
+
+        /* CSS dành cho việc in */
+        @media print {
+            /* Định dạng các kết quả in ra */
+            .result-cell {
+                font-weight: bold;
+            }
+        }
+        /* CSS cho trường input khi nhập */
+        .input_field {
+            font-weight: normal; /* Đặt trọng lượng font trở lại bình thường */
+        }
+
+        .input_field:focus {
+            font-weight: bold; /* Đặt trọng lượng font là đậm khi trường nhập được focus */
+        }
+    </style>
+<title>Ôn Tập PKV</title></head><body><h1>Ôn Tập PKV</h1><button id='toggleColumnButton01' class='toggleColumnButton'>Ẩn/Hiện Cột đầu (cột đáp án)</button><button id='toggleColumnButtonImage01' class='toggleColumnButtonImage'>Ẩn/Hiện Cột Hình Ảnh</button><button id='toggleColumnButtonVideo01' class='toggleColumnButtonVideo'>Ẩn/Hiện Cột Video</button><br/>====================<br/><form id='searchForm'><input type='submit' value='Kiểm tra kết quả'><table id='searchTable' border='1'><tr><th>Input - Bài làm</th><th>Đáp án</th><th>Câu hỏi</th><th>Lựa chọn</th></tr><tr><td><input type='text' name='input_field' class='input_field' placeholder='Nhập bài làm'></td><td>D</td><td>Có bao nhiêu Quốc gia ở DNA</td><td>A. 5; B. 7; C. 9; D. 11</td></tr><tr><td><input type='text' name='input_field' class='input_field' placeholder='Nhập bài làm'></td><td>A</td><td>VN có bao nhiêu tỉnh thành</td><td>A</td><td>34
+B</td><td>43
+C</td><td>63
+D</td><td>64</td></tr><tr><td><input type='text' name='input_field' class='input_field' placeholder='Nhập bài làm'></td><td>C</td><td>Có bao nhiêu Quốc gia ở DNA</td><td>A. 5; B. 7; C. 9; D. 11</td></tr><tr><td><input type='text' name='input_field' class='input_field' placeholder='Nhập bài làm'></td><td>D</td><td>VN có bao nhiêu tỉnh thành</td><td>A</td><td>34
+B</td><td>43
+C</td><td>63
+D</td><td>64</td></tr><tr><td><input type='text' name='input_field' class='input_field' placeholder='Nhập bài làm'></td><td>B</td><td>Có bao nhiêu Quốc gia ở DNA</td><td>A. 5; B. 7; C. 9; D. 11</td></tr><tr><td><input type='text' name='input_field' class='input_field' placeholder='Nhập bài làm'></td><td>A</td><td>VN có bao nhiêu tỉnh thành</td><td>A. 5; B. 7; C. 9; D. 11</td></tr><tr><td><input type='text' name='input_field' class='input_field' placeholder='Nhập bài làm'></td><td>C</td><td>Có bao nhiêu Quốc gia ở DNA</td><td>A. 5; B. 7; C. 9; D. 11</td></tr><tr><td><input type='text' name='input_field' class='input_field' placeholder='Nhập bài làm'></td><td>A</td><td>VN có bao nhiêu tỉnh thành</td><td>A</td><td>34
+B</td><td>43
+C</td><td>63
+D</td><td>64</td></tr><tr><td><input type='text' name='input_field' class='input_field' placeholder='Nhập bài làm'></td><td>A</td><td>VN có bao nhiêu tỉnh thành</td><td>A</td><td>34
+B</td><td>43
+C</td><td>63
+D</td><td>64</td></tr></table><input type='submit' value='Kiểm tra kết quả'></form><br/>====================<br/><button id='toggleColumnButton02' class='toggleColumnButton'>Ẩn/Hiện Cột đầu (cột đáp án)</button><button id='toggleColumnButtonImage02' class='toggleColumnButtonImage'>Ẩn/Hiện Cột Hình Ảnh</button><button id='toggleColumnButtonVideo02' class='toggleColumnButtonVideo'>Ẩn/Hiện Cột Video</button><script>
+document.addEventListener('DOMContentLoaded', function() {
+  var searchForm = document.getElementById('searchForm');
+  var correctResults = 0;
+  var exactMatches = 0; // Biến để đếm số lượng kết quả chính xác
+  var partialMatches = 0; // Biến để đếm số lượng kết quả khớp
+  var specialChars = /[,";:]/;
+
+  // Ẩn cột đầu tiên khi trang được tải
+  var table = document.getElementById('searchTable');
+  var columnIndex = 1; // Chỉ số cột cần ẩn (cột thứ nhất là cột từ vựng tiếng Anh)
+
+  table.querySelectorAll('tr').forEach(function(row) {
+    row.cells[columnIndex].style.display = 'none';
+  });
+
+  // Sự kiện click vào nút "Ẩn/Hiện cột"
+    var toggleColumnButtons = document.querySelectorAll('.toggleColumnButton');
+    toggleColumnButtons.forEach(function(button) {
+      button.addEventListener('click', function() {
+        var table = document.getElementById('searchTable');
+        var columnIndex = 1; // Chỉ số cột cần ẩn/hiện (cột thứ nhất là cột từ vựng tiếng Anh)
+
+        // Kiểm tra trạng thái hiện tại của cột
+        var columnHidden = table.rows[0].cells[columnIndex].style.display === 'none';
+
+        // Chuyển đổi trạng thái ẩn/hiện cho cột và cập nhật nút
+        table.querySelectorAll('tr').forEach(function(row) {
+          row.cells[columnIndex].style.display = columnHidden ? 'table-cell' : 'none';
+        });
+
+        // Cập nhật nút thành ẩn/hiện tùy thuộc vào trạng thái mới của cột
+        toggleColumnButtons.forEach(function(button) {
+          button.textContent = columnHidden ? 'Ẩn cột đáp án' : 'Hiện cột đáp án';
+        });
+      });
+    });
+
+// Hàm tìm cột chứa hình ảnh và trả về chỉ số của cột đó
+function findImageColumnIndex() {
+  var table = document.getElementById('searchTable');
+  var columnIndex = -1; // Khởi tạo chỉ số cột là -1, nghĩa là không tìm thấy cột chứa hình ảnh
+
+  // Lặp qua hàng đầu tiên (tiêu đề) để tìm cột chứa hình ảnh
+  var headerRow = table.rows[0];
+  for (var i = 0; i < headerRow.cells.length; i++) {
+    var cellContent = headerRow.cells[i].textContent.toLowerCase();
+    if (cellContent.includes('ảnh') || cellContent.includes('image')) {
+      columnIndex = i; // Lưu chỉ số của cột chứa hình ảnh
+      break;
+    }
+  }
+
+  return columnIndex;
+}
+
+// Sự kiện click vào nút "Ẩn/Hiện Cột Hình Ảnh"
+var toggleColumnButtonsImage = document.querySelectorAll('.toggleColumnButtonImage');
+toggleColumnButtonsImage.forEach(function(button) {
+  button.addEventListener('click', function() {
+    var table = document.getElementById('searchTable');
+    var imageColumnIndex = findImageColumnIndex(); // Tìm chỉ số của cột chứa hình ảnh
+
+    // Kiểm tra xem có tìm thấy cột chứa hình ảnh hay không
+    if (imageColumnIndex !== -1) {
+      // Kiểm tra trạng thái hiện tại của cột
+      var columnHidden = table.rows[0].cells[imageColumnIndex].style.display === 'none';
+
+      // Chuyển đổi trạng thái ẩn/hiện cho cột và cập nhật nút
+      table.querySelectorAll('tr').forEach(function(row) {
+        row.cells[imageColumnIndex].style.display = columnHidden ? 'table-cell' : 'none';
+      });
+
+      // Cập nhật nút thành ẩn/hiện tùy thuộc vào trạng thái mới của cột
+      toggleColumnButtonsImage.forEach(function(button) {
+        button.textContent = columnHidden ? 'Ẩn cột hình ảnh' : 'Hiện cột hình ảnh';
+      });
+    } else {
+      alert("Không tìm thấy cột chứa hình ảnh trong bảng!"); // Thông báo nếu không tìm thấy cột chứa hình ảnh
+    }
+  });
+});
+
+  searchForm.addEventListener('submit', function(event) {
+    event.preventDefault();
+    correctResults = 0;
+    exactMatches = 0;
+    partialMatches = 0;
+
+    var inputFields = document.querySelectorAll('.input_field');
+
+    inputFields.forEach(function(inputField) {
+      var inputValue = inputField.value.trim();
+      var row = inputField.parentNode.parentNode;
+      var enText = row.querySelector('td:nth-child(2)').textContent;
+
+      // Kiểm tra xem giá trị nhập vào có chứa ký tự đặc biệt không
+      if (inputValue === '' || specialChars.test(inputValue)) {
+        var resultCell = document.createElement('td');
+        resultCell.textContent = '-';
+        row.appendChild(resultCell);
+      } else if (enText.toLowerCase().indexOf(inputValue.toLowerCase()) !== -1) {
+        var resultCell = document.createElement('td');
+        if (enText.toLowerCase() === inputValue.toLowerCase()) {
+          resultCell.textContent = 'Đúng';
+          resultCell.classList.add('correct'); // Thêm lớp cho kết quả Đúng
+          exactMatches++;
+        } else {
+          resultCell.textContent = 'Khớp';
+          resultCell.classList.add('partial');
+          partialMatches++;
+        }
+        row.appendChild(resultCell);
+        correctResults++;
+      } else {
+        var resultCell = document.createElement('td');
+        resultCell.textContent = 'Sai';
+        resultCell.classList.add('incorrect');
+        row.appendChild(resultCell);
+      }
+    });
+
+    var header = document.querySelector('h1');
+    //header.textContent = "Search Results - " + correctResults + "/" + inputFields.length + " correct";
+    var resultsText = "Ôn Tập - " + correctResults + "/" + inputFields.length + " đúng (" + exactMatches + " chính xác, " + partialMatches + " gần đúng)";
+    header.textContent = resultsText;
+
+    var resultSummary = document.createElement('td');
+    resultSummary.textContent = correctResults + "/" + inputFields.length;
+    var firstRow = document.querySelector('#searchTable tr:first-child');
+    firstRow.appendChild(resultSummary);
+  });
+
+  // Hàm kiểm tra xem một chuỗi có phải là một đường dẫn hình ảnh không
+  function isImageURL(url) {
+    return url.match(/\.(jpeg|jpg|gif|png)$/) != null;
+  }
+
+  // Hàm thêm thẻ <img> vào cột dữ liệu nếu đó là một đường dẫn hình ảnh
+  function addImageToColumn(cell) {
+    var text = cell.textContent.trim();
+    if (isImageURL(text)) {
+      var img = document.createElement('img');
+      img.src = text;
+      img.style.maxHeight = '200px';
+      cell.innerHTML = '';
+      cell.appendChild(img);
+    }
+  }
+
+  // Hàm xử lý tất cả các cột của bảng
+  function processImageColumns() {
+    var table = document.getElementById('searchTable');
+    var rows = table.querySelectorAll('tr');
+
+    rows.forEach(function(row) {
+      var cells = row.querySelectorAll('td');
+      cells.forEach(function(cell) {
+        addImageToColumn(cell);
+      });
+    });
+  }
+
+  // Gọi hàm xử lý ảnh khi trang đã tải xong
+  processImageColumns();
+
+  // Hàm tìm cột chứa link video và trả về chỉ số của cột đó
+  function findVideoColumnIndex() {
+    var table = document.getElementById('searchTable');
+    var columnIndex = -1; // Khởi tạo chỉ số cột là -1, nghĩa là không tìm thấy cột chứa link video
+
+    // Lặp qua hàng đầu tiên (tiêu đề) để tìm cột chứa link video
+    var headerRow = table.rows[0];
+    for (var i = 0; i < headerRow.cells.length; i++) {
+      var cellContent = headerRow.cells[i].textContent.toLowerCase();
+      if (cellContent.includes('video')) {
+        columnIndex = i; // Lưu chỉ số của cột chứa link video
+        break;
+      }
+    }
+
+    return columnIndex;
+  }
+
+  // Hàm thêm thẻ <iframe> vào cột dữ liệu nếu là video YouTube hoặc TikTok
+  function addVideoToColumn(cell) {
+      const text = cell.textContent.trim();
+
+      if (isYouTubeLink(text)) {
+        const videoId = getYouTubeVideoId(text);
+        if (videoId) {
+          const iframe = document.createElement('iframe');
+          iframe.src = "https://www.youtube.com/embed/" + videoId;
+          iframe.width = "560";
+          iframe.height = "315";
+          iframe.allowFullscreen = true;
+          cell.innerHTML = '';
+          cell.appendChild(iframe);
+        }
+      } else if (isTikTokLink(text)) {
+        const videoId = getTikTokVideoId(text);
+        if (videoId) {
+          const blockquote = document.createElement('blockquote');
+          blockquote.className = 'tiktok-embed';
+          blockquote.setAttribute('cite', text);
+          blockquote.setAttribute('data-video-id', videoId);
+          blockquote.style.maxWidth = '605px';
+          blockquote.style.minWidth = '325px';
+          blockquote.innerHTML = '<section>Loading...</section>';
+
+          cell.innerHTML = '';
+          cell.appendChild(blockquote);
+
+          // Chỉ thêm script nếu chưa có
+          if (!document.querySelector('script[src="https://www.tiktok.com/embed.js"]')) {
+            const script = document.createElement('script');
+            script.src = "https://www.tiktok.com/embed.js";
+            script.async = true;
+            document.body.appendChild(script);
+          } else {
+            // Nếu script đã có, gọi lại để TikTok xử lý đoạn blockquote mới
+            if (typeof window.tiktokEmbedLoad === 'function') {
+              window.tiktokEmbedLoad();
+            }
+          }
+        }
+      }
+    }
+
+    function isTikTokLink(url) {
+      return url.includes("tiktok.com/") && url.includes("/video/");
+    }
+
+    function getTikTokVideoId(url) {
+      const match = url.match(/\/video\/(\d+)/);
+      return match ? match[1] : null;
+    }
+
+  // Hàm kiểm tra xem một đường dẫn có phải là một link YouTube không
+  function isYouTubeLink(url) {
+    return url.match(/^(https?:\/\/)?(www\.)?(youtube\.com\/watch\?v=|youtu\.be\/)/) !== null;
+  }
+
+  // Hàm trích xuất video ID từ một đường dẫn YouTube
+  function getYouTubeVideoId(url) {
+    var match = url.match(/(?:https?:\/\/)?(?:www\.)?(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&\n?]+)/);
+    return match ? match[1] : null;
+  }
+
+  // Sự kiện click vào nút "Ẩn/Hiện Cột Video"
+  var toggleColumnButtonsVideo = document.querySelectorAll('.toggleColumnButtonVideo');
+  toggleColumnButtonsVideo.forEach(function(button) {
+    button.addEventListener('click', function() {
+      var table = document.getElementById('searchTable');
+      var videoColumnIndex = findVideoColumnIndex(); // Tìm chỉ số của cột chứa link video
+
+      // Kiểm tra xem có tìm thấy cột chứa link video hay không
+      if (videoColumnIndex !== -1) {
+        // Kiểm tra trạng thái hiện tại của cột
+        var columnHidden = table.rows[0].cells[videoColumnIndex].style.display === 'none';
+
+        // Chuyển đổi trạng thái ẩn/hiện cho cột và cập nhật nút
+        table.querySelectorAll('tr').forEach(function(row) {
+          row.cells[videoColumnIndex].style.display = columnHidden ? 'table-cell' : 'none';
+        });
+
+        // Cập nhật nút thành ẩn/hiện tùy thuộc vào trạng thái mới của cột
+        toggleColumnButtonsVideo.forEach(function(button) {
+          button.textContent = columnHidden ? 'Ẩn cột video' : 'Hiện cột video';
+        });
+      } else {
+        alert("Không tìm thấy cột chứa link video trong bảng!"); // Thông báo nếu không tìm thấy cột chứa link video
+      }
+    });
+  });
+
+  // Hàm xử lý tất cả các cột của bảng để thêm video nếu có
+  function processVideoColumns() {
+    var table = document.getElementById('searchTable');
+    var rows = table.querySelectorAll('tr');
+
+    rows.forEach(function(row) {
+      var cells = row.querySelectorAll('td');
+      cells.forEach(function(cell) {
+        addVideoToColumn(cell);
+      });
+    });
+  }
+
+  // Gọi hàm xử lý video khi trang đã tải xong
+  processVideoColumns();
+
+});
+</script></body></html>
